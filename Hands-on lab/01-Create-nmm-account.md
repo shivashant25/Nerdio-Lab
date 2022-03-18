@@ -36,14 +36,26 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
 1. Once the Cloud Shell is configured, Paste the **PowerShell command** which you copied earlier and press enter.
 
+   ![](media/s7.png)
+
    >**NOTE**: The execution of the command will take 5 - 10 minutes to complete. Wait till the execution completes.
 
 1. Go to the web page and refresh the web page. Click on **Accept** to provide the neccessary permissions.
 
-   ![](media/s7.png)
+   ![](media/s8.png)
    
 1. Please provide the following details in the registartion page
 
-   - **Company**: Select the default subscription.
-   - **Name**: odl_user_{deploymentid}
-   - 
+   - **Company**: Select the default subscription *(1)*
+   - **Name**: odl_user_{deploymentid} *(2)*
+   - **Email**: **<inject key="Username" />** *(3)*
+   - **Country**: Select your country *(4)*
+   
+   Click on **Register**.
+   
+   ![](media/s9.png)
+   
+1. 
+ 
+  
+ 
