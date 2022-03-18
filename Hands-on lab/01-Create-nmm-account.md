@@ -55,7 +55,33 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    ![](media/s9.png)
    
-1. 
+1. Once registered, You'll land up in **NMM portal**. Click on **Add account** to create new NMM account.
+
+   ![](media/s11.png)
+   
+1. Provide the following details to create the account.
+
+   **A. STEP 1: LINK TO CUSTOMER'S AZURE AD ACCOUNT**
+   
+   - **Grant access to Azure AD Tenant**: Click on *Connect (1)*. Login into your Azure account and click on **Accept** to provide the neccessary permission.
+
+     ![](media/s12.1.png)
+     
+     ![](media/s12.png)
+     
+   - **Account name**: Leave it to default value *(2)*
+   - **Desktop deployment model**: Select *Azure Virtual Desktop (3)* 
+   - **Select subscription**: Select the default subscription from the drop down *(4)*
+   - **Indicate your Active Directory setup**: Select *Use Existing Azure AD DS* from the drop down *(5)*
+   
+   Select **Save & next** *(6)* and wait till the configuration completes.
+   
+   ![](media/s13.png)
+   
+   
+   
+   
+   
  
   
  
