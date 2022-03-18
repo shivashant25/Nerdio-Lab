@@ -78,10 +78,45 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    ![](media/s13.png)
    
+   **B. STEP 2: NETWORKING**
    
+   - **Select Azure region**: *East US (1)*
+   - **Select or create Resource Group**: *AVD-RG (2)*
+   - **Select network**: *aadds-subnet(10.0.0.0/24) (3)*
    
+   Select **Save & next** *(4)* and wait till the configuration completes.
    
+   ![](media/s14.png)
    
- 
+   **C. STEP 3: ACTIVE DIRECTORY - EXISTING AZURE AD DS**
+   
+   - **Domain name**: NAME OF THE AD DS
+   - **Domain admin user (must have domain join rights)**: <inject key="Username" />
+   - **Domain admin password**: <inject key="Password" />
+
+   Select **Save & next** *(4)* and wait till the configuration completes.
+   
+   ![](media/s15.png)
+   
+   **D. STEP 4: FSLOGIX STORAGE**
+   
+   Select **Create new Azure Files share** and provide the following details to create new storage account for FSLogix.
+   
+   ![](media/s16.png)
+   
+   - **Storage account**: fslogix{deploymentid}
+   - **Resourec group**: *AVD-RG*
+   - **Location**: *East US*
+   - **Performance**: *Premium*
+   - **File Share name**: *fsprofilestore*
+   - **Provisioned capacity(GiB)**: *100*
+   - **Permissions (SMB Share Contributor)**: <inject key="Username" />
+   - Click on *OK*
+
+   ![](media/s17.png)
+   
+   Select **Save & done** and wait till the configuration completes.
+   
+   ![](media/s18.png)
   
  
