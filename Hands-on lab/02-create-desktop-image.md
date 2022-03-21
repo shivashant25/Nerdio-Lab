@@ -89,7 +89,7 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    - **Number of failures before aborting**: *1 (7)*
    - Click on ***OK*** *(8)*
 
-   ![](media/2s13png)
+   ![](media/2s13.png)
    
    >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes.
    
