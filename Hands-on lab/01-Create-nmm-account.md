@@ -119,4 +119,8 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    ![](media/s18.png)
   
- 
+1. Once the storage account is created. You'll be able to see your NMM account in the Accounts blade.
+
+   ![](media/s18.png)
+
+1. Click on the Next button present in the bottom-right corner of this lab guide.
