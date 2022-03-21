@@ -29,9 +29,47 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
 1. Once the image creation is completed. You'll be able to see the image in the Desktop image side blade.
 
-   ![](media/2s2.png)
+   ![](media/2s4.png)
    
 ## Exercise 1: Create Host Pool
 
-1. 
+1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
+
+   ![](media/2s1.png)
+   
+1. From your NMM account home page, Expand the **AVD** *(1)* drop down and Select **Hostpool** *(2)*.
+
+   ![](media/2s5.png)
+   
+1. Click on **Add host pool** to create a new host pool.
+
+   ![](media/2s6.png)
+   
+1. Provide the following details to create the new host pool.
+
+   - **NAME**: *AVD-HP-01 (1)*
+   - **DESKTOP EXPERIENCE**: Select *Multi user desktop (pooled) (2)*
+   - **DIRECTORY**: Select the *default Azure AD DS (3)* from the drop down
+   - **FSLOGUX**: *Default profile (default) (4)* from the drop down
+
+   ![](media/2s7.png)
+   
+    - **NEW WORKSPACE**: *AVD-WS-01 (5)*
+   - **NAME PREFIX**: *AVD-SH (6)*
+   -  **DESKTOP IMAGE**: Select *AVDImage (7)* from the drop down
+   - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (8)*
+   - **OS DISK**: *128GB (E10/Standard SSD) (9)*
+   - **QUICK ASSIGN**: Leave it to default *(10)*
+   - Click on ***OK*** *(11)*
+
+   ![](media/2s8.png)
+
+   In **Manage AUTO-SCALE AVD-HP-01** page, Leave all the options to **default** and click on **Save**.
+   
+   ![](media/2s9.png)
+   
+   ![](media/2s10.png)
+   
+   
+   
    
