@@ -1,4 +1,4 @@
-# Lab 2: Create Desktop Image for AVD
+# Lab 2: Create Desktop Image and Host pool
 
 ## **Overview**
 
@@ -14,5 +14,24 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
    ![](media/2s2.png)
    
-1. Once the 
+1. Provide the following details to create the new desktop image.
+
+   - **NAME**: *AVDImage (1)*
+   - **AZURE IMAGE**: *Windows 10 (20H2) EVD + Office ProPlus - Gen2 (mutlsession) (2)*
+   - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (3)*
+   - **OS DISK**: *128GB (E10/Standard SSD) (4)*
+   - Check ***Join to AD*** *(5)*
+   - Click on ***OK*** *(6)*
+
+   ![](media/2s3.png)
+   
+   >**NOTE**: Image creation will take 40 - 45 minutes. Please wait untill it completes.
+   
+1. Once the image creation is completed. You'll be able to see the image in the Desktop image side blade.
+
+   ![](media/2s2.png)
+   
+## Exercise 1: Create Host Pool
+
+1. 
    
