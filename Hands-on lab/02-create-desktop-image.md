@@ -54,7 +54,7 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
    ![](media/2s7.png)
    
-    - **NEW WORKSPACE**: *AVD-WS-01 (5)*
+   - **NEW WORKSPACE**: *AVD-WS-01 (5)*
    - **NAME PREFIX**: *AVD-SH (6)*
    -  **DESKTOP IMAGE**: Select *AVDImage (7)* from the drop down
    - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (8)*
@@ -70,6 +70,28 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    ![](media/2s10.png)
    
+1. Once the host pool completes. You'll be able to see the **AVD-HP-01** in the host pool side blade. Click on **Manage** *(1)*.
+
+   ![](media/2s11.png)
+   
+1. From **AVD-HP-01** host pool page, Click on **Add Session host** to compute instance to the host pool.
+
+   ![](media/2s12.png)
+   
+1. Provide the following details to add new session hosts to the host pool.
+
+   - **HOST POOL**: *2 (1)*
+   - **NAME PREFIX**: *AVD-SH (2)*
+   -  **DESKTOP IMAGE**: Select *AVDImage (3)* from the drop down
+   - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (4)*
+   - **OS DISK**: *128GB (E10/Standard SSD) (5)*
+   - **Process hosts in groups of**: *1 (6)*
+   - **Number of failures before aborting**: *1 (7)*
+   - Click on ***OK*** *(8)*
+
+   ![](media/2s13png)
+   
+   >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes.
    
    
    
