@@ -50,7 +50,7 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    - **NAME**: *AVD-HP-01 (1)*
    - **DESKTOP EXPERIENCE**: Select *Multi user desktop (pooled) (2)*
    - **DIRECTORY**: Select the *default Azure AD DS (3)* from the drop down
-   - **FSLOGUX**: *Default profile (default) (4)* from the drop down
+   - **FSLOGIX**: *Default profile (default) (4)* from the drop down
 
    ![](media/2s7.png)
    
