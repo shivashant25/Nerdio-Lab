@@ -31,7 +31,7 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
    ![](media/2s4.png)
    
-## Exercise 1: Create Host Pool
+## Exercise 2: Create Host Pool
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
