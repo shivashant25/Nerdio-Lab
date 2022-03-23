@@ -113,11 +113,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
 1. Select the **fslogix{deploymentid}** storage account which was created while creating the NMM account.
 
-   ![ws name.](media/4s18.png)
+   ![ws name.](media/4s18.1.png)
    
 1. Select **Fileshare** from the left side menu.
 
-   ![ws name.](media/4s19.png)
+   ![ws name.](media/4s19.1.png)
    
 1. Click on the **fsprofilestore** file share.
 
