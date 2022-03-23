@@ -93,5 +93,9 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes.
    
-   
+ 1. Once the session hosts creation completes, You'll be able to see the session hosts in the host pool.
+
+    ![](media/2s14.png)
+    
+ 1. Click on the Next button present in the bottom-right corner of this lab guide.
    
