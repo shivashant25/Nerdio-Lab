@@ -23,7 +23,7 @@
 
    ![](media/3s2.png)
    
-1. **Copy and save** the user's password in a notepad which you'll be using later.
+1. **Copy and save** *(1)* the user's password in a notepad which you'll be using later and click on **Ok** *(2)*.
 
    ![](media/3s3.png)    
    
@@ -41,7 +41,7 @@
 
    ![](media/3s5.png)
    
-1. **Copy and save** the user's password in a notepad which you'll be using later.
+1. **Copy and save** *(1)* the user's password in a notepad which you'll be using later and click on **Ok** *(2)*.
 
    ![](media/3s6.png)
    
