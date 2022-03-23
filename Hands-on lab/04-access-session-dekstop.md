@@ -1,4 +1,4 @@
-# Lab 3: Create users and groups in NMM portal
+# Lab 4: Configure FSLogix and Access the Desktop using AVD Desktop Client
 
 ## **Overview**
 
@@ -101,9 +101,35 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/4s15.png)
     
-4. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+13. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](media/4s16.png)   
+   ![ws name.](media/4s16.png)
+   
+## Exercise 4: Verifying the User profiles stored in File share
+
+1. From the Azure Portal, search for *storage accounts* in the search bar and click on **Storage Accounts** from the suggestions.
+
+   ![ws name.](media/4s17.png)
+   
+1. Select the **fslogix{deploymentid}** storage account which was created while creating the NMM account.
+
+   ![ws name.](media/4s18.png)
+   
+1. Select **Fileshare** from the left side menu.
+
+   ![ws name.](media/4s19.png)
+   
+1. Click on the **fsprofilestore** file share.
+
+   ![ws name.](media/4s20.png)
+   
+1. You will see the user folder created in the file share, click on the folder.
+
+   ![ws name.](media/4s21.png)
+   
+7. Now you will be able to see the user profiles data stored in the filesharers in a ***.vhd*** format.
+
+   ![ws name.](media/4s22.png)
      
-5. Click on the **Next** button present in the bottom-right corner of this lab guide. 
+14. Click on the **Next** button present in the bottom-right corner of this lab guide. 
     
