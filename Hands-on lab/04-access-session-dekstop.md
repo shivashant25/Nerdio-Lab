@@ -79,7 +79,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    - Password: Paste the password of ***nmmuser01*** which you had copied earlier *and click on **Sign in**.*
 
-   ![ws name.](media/4s10.1.png)
+   ![ws name.](media/410.1.png)
    
    >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
