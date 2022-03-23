@@ -75,11 +75,11 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
-   ![ws name.](media/4s9.png)
+   ![ws name.](media/4s9.1.png)
 
    - Password: Paste the password of ***nmmuser01*** which you had copied earlier *and click on **Sign in**.*
 
-   ![ws name.](media/4s10.png)
+   ![ws name.](media/4s10.1.png)
    
    >**Note:** If there's a popup entitled **Help us protect your account** click **Skip for now (14 days until this is required)**
 
@@ -95,7 +95,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
     
 11. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter the password of ***nmmuser01*** which you had copied earlier and click on **OK**.
    
-    ![ws name.](media/4s14.png)
+    ![ws name.](media/4s14.1.png)
     
 12. Wait for the Session Desktop to connect.
 
