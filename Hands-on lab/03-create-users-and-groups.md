@@ -1,4 +1,4 @@
-# Lab 3: Create Users and groups in NMM portal
+# Lab 3: Create users and groups in NMM portal
 
 ## **Overview**
 
