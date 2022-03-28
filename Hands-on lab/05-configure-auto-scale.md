@@ -33,4 +33,4 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
    ![](media/5s3.png)
    
-1. 
+
