@@ -17,3 +17,9 @@
 5. Select the *Group type* as **Security**, name it **Standard AVD** and click on **Create**.
 
     ![](media/ss8.png)
+
+6. Repeat the steps **4 & 5** to create a new group named **AVD QuickBooks Users**.
+
+7. Now in the Groups window that comes up, under *All Groups*, you will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users**.
+
+    ![](media/ss9.png)
