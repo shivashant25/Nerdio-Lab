@@ -6,7 +6,7 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
 ## Exercise 1: Create Groups in Azure AD.
 
-1. Navigate to the Azure portal, then search for *Azure Active Directory* in the search bar and select **Azure Active Directory** from the suggestions.
+1. Navigate to the Azure portal, then search for **Active Directory** in the search bar and select **Azure Active Directory** from the suggestions.
 
     ![](media/ss4.png)
     
