@@ -22,8 +22,6 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
    ![](media/5s2.png)
    
-   
-   
 1. In **PRE-STAGE HOSTS, provide the following the details to pre stage the hosts and **AUTO-HEAL BROKEN HOSTS** and understand the rules. Leave all the values to **Defaults**.
 
    - **Enable** the **PRE-STAGE HOSTS** option
