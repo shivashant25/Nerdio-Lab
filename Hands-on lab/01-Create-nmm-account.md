@@ -22,16 +22,21 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 
     ![](media/ss7.png)
     
-5. Select the *Group type* as **Security**, name it **Standard AVD** and click on **Create**.
-
-    ![](media/ss8.png)
-
-6. Repeat the steps **4 & 5** to create a new group named **AVD QuickBooks Users**.
-
-7. Now in the Groups window that comes up, under *All Groups*, you will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users**.
+5. Select the Group type as **Security**, name it **Standard AVD** and click on **Create**. Your group will be created successfully.
 
     ![](media/ss9.png)
 
+6. Again click on **New Group**.
+
+    ![](media/ss7.png)
+
+7. Select the Group type as **Security**, name it **AVD QuickBooks Users** and click on **Create**. Your group will be created successfully.
+
+    ![](media/ss10.png)
+    
+8. Now in the Groups window that comes up, under **All Groups**, you will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users**.
+
+    ![](media/ss11.png)
 
 ## Exercise 2: Getting started with NMM
 
