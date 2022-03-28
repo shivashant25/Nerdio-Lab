@@ -12,15 +12,15 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
 1. Select **mrg-nmm-[unique]** from the list of reosurce groups which is a dynamic RG created during creation NMM resource. It contains all the required resources.
 
-   ![](media/s1.png)
+   ![](media/ss1.png)
    
 1. Select the **App service** from the list of resources.
 
-   ![](media/s2.png)
+   ![](media/ss2.png)
    
 1. From the App service page, Select the **URL** of the web page to access the Nerdio portal.
 
-   ![](media/s3.png)
+   ![](media/ss3.png)
    
 1. From the Web page, **Copy** *(1)* the PowerShell command which you'll be using it later and click on **Launch Azure Cloud Shell** *(2)*
  
