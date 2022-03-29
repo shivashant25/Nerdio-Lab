@@ -49,37 +49,37 @@
 
    ![](media/3s11.png)
    
-## Exercise 2: Create new group for AVD
+## Exercise 2: Assign new users to security group
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
    ![](media/2s1.png)
 
-1. Select **GROUPS** *(1)* from the side blade and click on **Add group** *(2)* to create a new image.
+1. Select **GROUPS** *(1)* from the side blade and click on **Edit** *(2)* of the **Standard AVD** group to add new users to the group.
 
-   ![](media/3s7.png)
+   ![](media/3ss7.png)
    
-1. Provide the following details to create the new group.
+1. Provide the following details to add users to the group.
 
    - **GROUP TYPE**: *Security group (1)*
-   - **NAME**: *NMM Users (2)*
+   - **NAME**: *Standard AVD (2)*
    - **MEMBERS**: Select *ODL_User, nmmuser01. nmmuser02 (3)* from the drop down
    - **OWNERS**: Select *ODL_User (4)* from the drop down
    - Click on ***Save*** *(5)*
    
-   ![](media/3s8.png)
+   ![](media/3ss8.png)
    
-1. Once the group creation completes. CLick on the **drop down** icon of NMM Users group and select the **Manage AVD desktops** option.
+1. Once the new users are added to the **Standard AVD** group, cLick on the **drop down** icon of Standard AVD group and select the **Manage AVD desktops** option.
 
-   ![](media/3s9.png)
+   ![](media/3ss9.png)
    
 1. In **DESKTOP ASSIGNMENTS** page, Select the default **AVD-HP-01** *(1)* desktop host pool and click on **Confirm** *(2)*.
 
    ![](media/3s10.png)
    
-1. Once the Desktop assignment completes, you'll be able to see the new **NMM Users** group attached to the **AVD-HP-01** desktop host pool.
+1. Once the Desktop assignment completes, you'll be able to see the **Standard AVD** group attached to the **AVD-HP-01** desktop host pool.
 
-   ![](media/3s12.png)
+   ![](media/3ss12.png)
    
    
     
