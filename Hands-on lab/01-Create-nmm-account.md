@@ -136,7 +136,7 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    Select **Create new Azure Files share** and provide the following details to create new storage account for FSLogix.
    
-   ![](media/s16.png)
+   ![](media/ss12.png)
    
    - **Storage account**: fslogix{deploymentid}
    - **Resourec group**: *AVD-RG*
@@ -144,10 +144,10 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    - **Performance**: *Premium*
    - **File Share name**: *fsprofilestore*
    - **Provisioned capacity(GiB)**: *100*
-   - **Permissions (SMB Share Contributor)**: <inject key="Username" />
+   - **Permissions (SMB Share Contributor)**: *Standard AVD*
    - Click on *OK*
 
-   ![](media/s17.png)
+   ![](media/ss13.png)
    
    Select **Save & done** and wait till the configuration completes.
    
