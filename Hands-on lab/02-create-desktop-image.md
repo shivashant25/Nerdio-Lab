@@ -17,19 +17,19 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
 1. Provide the following details to create the new desktop image.
 
    - **NAME**: *AVDImage (1)*
-   - **AZURE IMAGE**: *Windows 10 (20H2) EVD + Office ProPlus - Gen2 (mutlsession) (2)*
-   - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (3)*
+   - **AZURE IMAGE**: *Windows 10 (21H1) EVD + Office ProPlus - Gen2 (mutlsession) (2)*
+   - **VM SIZE**: *D4s_v4 (4C/16GB/Standard) (3)*
    - **OS DISK**: *128GB (E10/Standard SSD) (4)*
    - Check ***Join to AD*** *(5)*
    - Click on ***OK*** *(6)*
 
-   ![](media/2s3.png)
+   ![](media/2ss3.png)
    
    >**NOTE**: Image creation will take 40 - 45 minutes. Please wait untill it completes.
    
 1. Once the image creation is completed. You'll be able to see the image in the Desktop image side blade.
 
-   ![](media/2s4.png)
+   ![](media/2ss4.png)
    
 ## Exercise 2: Create Host Pool
 
@@ -52,27 +52,27 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    - **DIRECTORY**: Select the *default Azure AD DS (3)* from the drop down
    - **FSLOGIX**: *Default profile (default) (4)* from the drop down
 
-   ![](media/2s7.png)
+   ![](media/2ss7.png)
    
    - **NEW WORKSPACE**: *AVD-WS-01 (5)*
    - **NAME PREFIX**: *AVD-SH (6)*
    -  **DESKTOP IMAGE**: Select *AVDImage (7)* from the drop down
-   - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (8)*
+   - **VM SIZE**: *D4s_v4 (4C/16GB/Standard) (8)*
    - **OS DISK**: *128GB (E10/Standard SSD) (9)*
    - **QUICK ASSIGN**: Leave it to default *(10)*
    - Click on ***OK*** *(11)*
 
-   ![](media/2s8.png)
+   ![](media/2ss8.png)
 
    In **Manage AUTO-SCALE AVD-HP-01** page, Leave all the options to **default** and click on **Save**.
    
-   ![](media/2s9.png)
+   ![](media/2ss9.png)
    
-   ![](media/2s10.png)
+   ![](media/2ss10.png)
    
 1. Once the host pool completes. You'll be able to see the **AVD-HP-01** in the host pool side blade. Click on **Manage** *(1)*.
 
-   ![](media/2s11.png)
+   ![](media/2ss11.png)
    
 1. From **AVD-HP-01** host pool page, Click on **Add Session host** to compute instance to the host pool.
 
@@ -83,19 +83,19 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    - **HOST POOL**: *2 (1)*
    - **NAME PREFIX**: *AVD-SH (2)*
    -  **DESKTOP IMAGE**: Select *AVDImage (3)* from the drop down
-   - **VM SIZE**: *D2s_v4 (2C/8GB/Standard) (4)*
+   - **VM SIZE**: *D4s_v4 (4C/16GB/Standard) (4)*
    - **OS DISK**: *128GB (E10/Standard SSD) (5)*
    - **Process hosts in groups of**: *1 (6)*
    - **Number of failures before aborting**: *1 (7)*
    - Click on ***OK*** *(8)*
 
-   ![](media/2s13.png)
+   ![](media/2ss13.png)
    
    >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes.
    
  1. Once the session hosts creation completes, You'll be able to see the session hosts in the host pool.
 
-    ![](media/2s14.png)
+    ![](media/2ss14.png)
     
  1. Click on the Next button present in the bottom-right corner of this lab guide.
    
