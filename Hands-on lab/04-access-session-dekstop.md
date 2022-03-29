@@ -2,38 +2,7 @@
 
 ## **Overview**
 
-
-## Exercise 1: Create new users for AVD
-
-1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
-
-   ![](media/2s1.png)
-   
-1. Select **AZURE FILES** *(1)* from the side blade and click on **Manage** *(2)* to create a new image.
-
-   ![](media/4s1.png)
-
-1. In Permissions (SMB Share Contributors), Add **nmmuser01** and **nmmuser02** *(1)* from the drop down and click on **OK** *(2)*.
-   
-   ![](media/4s2.png)
-   
-1. From your NMM account home page, Expand the **AVD** *(1)* drop down and Select **Hostpool** *(2)*.
-
-   ![](media/2s5.png)
-   
-1. You'll be able to see the **AVD-HP-01** in the host pool side blade. Click on **Manage** *(1)*.
-
-   ![](media/2s11.png)
-   
-1. Click on the **drop down** icon of first session host and click on **Restart**
-
-   ![](media/4s3.png)
-   
-1. Similarly, **Restart** the second session hosts and waiting till the Restart task completion.
-  
-   ![](media/4s4.png)
-
-## Exercise 2: Access the Desktop using AVD Desktop Client
+## Exercise 1: Access the Desktop using AVD Desktop Client
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the AVD Desktop client.
 
