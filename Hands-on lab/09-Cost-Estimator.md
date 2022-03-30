@@ -6,17 +6,21 @@
    
 1. In **STEP 1: Let's start with desktop information**, provide the following details.
 
-   * **5** *(1)* 
-   * **1** *(2)*
-   * **E4s_v4(4C/32GB/Standard)** *(3)*
-   * **40** *(4)*
-   * **128** *(5)*
-   * **Professional Worker (3 users)** *(6)*
+   * **About how many users overall will use Nerdio desktops?**:  *5* *(1)* 
+   * **Minimum number of host(s)**:  *1* *(2)*
+   * **Size**:  *E4s_v4(4C/32GB/Standard)* *(3)*
+   * **Maxed out host pool in hours per week**:  *40* *(4)*
+   * **Maxed out host pool at minimum size in hours per week**:  *128* *(5)*
+   * **Ratio of users per CPU**:  *Professional Worker (3 users)* *(6)*
    
    ![](media/9ss2.png)
    
-1. In **STEP 2: SERVERS**, click on **Add server** *(1)* and provide the following details to add a server.
+1. In **STEP 2: SERVERS**, click on **Add server**.
 
+   ![](media/9ss3.1.png)
+
+   Provide the following details to add a server.
+   
    * **SERVER**:  *Server #1* *(2)*
    * **INSTANCE SIZE**:  *DS1_v2(1C/3.5GB/Standard)* *(3)*
    * **OS DISK**:  *128 GB (E10/Standard SSD)* *(4)*
