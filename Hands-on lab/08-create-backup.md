@@ -1,4 +1,4 @@
-1. From the NMM portal, click on **ACCOUNTS** *(1)* from the side blade and click on **Manange** *(2)* on your default NMM Account which you created in Lab 1.
+1. From the NMM portal, click on **ACCOUNTS** *(1)* from the side blade and click on **Manange** *(2)* on your default NMM Account.
 
    ![](media/2s1.png)
 
