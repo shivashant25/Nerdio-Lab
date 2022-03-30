@@ -12,11 +12,11 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
 1. Select **SERVERS** from the side blade.
 
-   ![](media/9s1.png)
+   ![](media/8s1.png)
    
 1. From the **SERVERS** *(1)* page, Click on **Add server** *(2)*.
 
-   ![](media/9s2.png)
+   ![](media/8s2.png)
    
 1. In **ADD SERVER** window, Please provide the details mentioned below to create a new server machine.
 
@@ -27,8 +27,8 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    - Check ***Join to AD*** *(5)*
    - Click on ***OK*** *(6)*
    
-   ![](media/9s3.png)
+   ![](media/8s3.png)
    
 1. Once the creation completes, You'll be able see the new server in the **SERVERS** page.
 
-   ![](media/9s4.png)
+   ![](media/8s4.png)
