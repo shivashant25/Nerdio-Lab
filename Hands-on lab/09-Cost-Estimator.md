@@ -1,4 +1,4 @@
-# Lab 9 - Cost Estimator
+# Lab 9: Cost Estimator
 
 1. From the NMM portal, click on **COST ESTIMATOR** *(1)* from the side blade and you will be redirected to the *COST ESTIMATOR - COST ESTIMATES* page.
 
