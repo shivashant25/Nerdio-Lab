@@ -1,8 +1,4 @@
-# Lab 1: Configure Auto Scaling
-
-## **Overview**
-
-NMM Partner API allows MSPs to automate various actions in NMM via API that they can do via the NMM portal. For examples, MSPs can create & manage host pools, hosts, desktop images all via the API.
+# Lab 5: Configure Auto Scaling
 
 ## Exercise 1: Configure Auto Scaling
 
