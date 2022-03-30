@@ -21,11 +21,11 @@
 
    Provide the following details to add a server.
    
-   * **SERVER**:  *Server #1* *(2)*
-   * **INSTANCE SIZE**:  *DS1_v2(1C/3.5GB/Standard)* *(3)*
-   * **OS DISK**:  *128 GB (E10/Standard SSD)* *(4)*
-   * **DATA DISK**:  *None* *(5)*
-   * **APPLY RI**:  *Yes* *(6)*
+   * **SERVER**:  *Server #1* *(1)*
+   * **INSTANCE SIZE**:  *DS1_v2(1C/3.5GB/Standard)* *(2)*
+   * **OS DISK**:  *128 GB (E10/Standard SSD)* *(3)*
+   * **DATA DISK**:  *None* *(4)*
+   * **APPLY RI**:  *Yes* *(5)*
 
    ![](media/9ss3.png)
    
