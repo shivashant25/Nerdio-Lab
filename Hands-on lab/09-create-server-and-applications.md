@@ -29,6 +29,8 @@ NMM Partner API allows MSPs to automate various actions in NMM via API that they
    
    ![](media/8s3.png)
    
+   >**NOTE**: Server machine task will take around 5 - 10 minutes to complete. Please wait till the task completes.
+   
 1. Once the creation completes, You'll be able see the new server in the **SERVERS** page.
 
    ![](media/8s4.png)
