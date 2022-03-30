@@ -1,7 +1,5 @@
 # Lab 6: Create Custom domain
 
-## Exercise 1: Create Custom domain
-
 1. On the **Azure portal** search for **Resource groups** in the search bar (1) and select **Resource groups** (2) from the suggestions.
 
    ![](media/s10.png)
