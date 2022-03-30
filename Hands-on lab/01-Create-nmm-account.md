@@ -1,9 +1,5 @@
 # Lab 1: Create NMM Account
 
-## **Overview**
-
-NMM Partner API allows MSPs to automate various actions in NMM via API that they can do via the NMM portal. For examples, MSPs can create & manage host pools, hosts, desktop images all via the API.
-
 ## Exercise 1: Create Groups in Azure AD.
 
 1. Navigate to the Azure portal, then search for **Active Directory** in the search bar and select **Azure Active Directory** from the suggestions.
