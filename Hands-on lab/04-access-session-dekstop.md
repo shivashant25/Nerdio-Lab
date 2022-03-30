@@ -72,7 +72,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
         
    ![ws name.](media/4s16.png)
    
-## Exercise 4: Verifying the User profiles stored in File share
+## Exercise 2: Verifying the User profiles stored in File share
 
 1. From the Azure Portal, search for *storage accounts* in the search bar and click on **Storage Accounts** from the suggestions.
 
