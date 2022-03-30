@@ -1,7 +1,5 @@
 # Lab 4: Configure FSLogix and Access the Desktop using AVD Desktop Client
 
-## **Overview**
-
 ## Exercise 1: Access the Desktop using AVD Desktop Client
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the AVD Desktop client.
