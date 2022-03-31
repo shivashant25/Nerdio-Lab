@@ -66,7 +66,7 @@ In this exercise, you'll be creating a Multi User Desktop (Pooled) AVD Host Pool
    
    - **NEW WORKSPACE**: *AVD-WS-01 (5)*
    - **NAME PREFIX**: *AVD-SH (6)*
-   -  **DESKTOP IMAGE**: Select *AVDImage (7)* from the drop down
+   - **DESKTOP IMAGE**: Select *AVDImage (7)* from the drop down
    - **VM SIZE**: *D4s_v4 (4C/16GB/Standard) (8)*
    - **OS DISK**: *128GB (E10/Standard SSD) (9)*
    - **QUICK ASSIGN**: Leave it to default *(10)*
