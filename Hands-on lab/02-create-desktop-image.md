@@ -1,6 +1,16 @@
 # Lab 2: Create Desktop Image and Host pool
 
+## Overview
+
+Host pools are groups of Azure VMs that "host" the Azure Virtual Desktops that end users log into. All VMs in the host pool share a set of configuration options: VM size, base image, AD domain, user profile storage location, etc. Nerdio Manager for MSP supports four different types of host pools. The four types vary by the "desktop experience." The types of host pools are: 
+* Multi User Desktop (Pooled)
+* Multi User RemoteApp (Pooled)
+* Single User Desktop (Pooled)
+* Single User Desktop (Personal)
+
 ## Exercise 1: Create Desktop Image
+
+In this exercise, you'll be creating a Desktop Image as per the specifications in your NMM Account.
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
@@ -28,6 +38,8 @@
    ![](media/2ss4.png)
    
 ## Exercise 2: Create Host Pool
+
+In this exercise, you'll be creating a Multi User Desktop (Pooled) AVD Host Pool as per the specifications in your NMM Account.
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
