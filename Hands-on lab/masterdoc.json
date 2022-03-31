@@ -4,48 +4,52 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/getting-started.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/01-Create-nmm-account.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/overview.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/02-create-desktop-image.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/01-Create-nmm-account.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/03-create-users-and-groups.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/02-create-desktop-image.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/04-access-session-dekstop.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/03-create-users-and-groups.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/05-configure-auto-scale.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/04-access-session-dekstop.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/06-create-custom-domain.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/05-configure-auto-scale.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/07-create-backup.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/06-create-custom-domain.md",
         "Order": 8
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/08-create-server-and-applications.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/07-create-backup.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/09-Cost-Estimator.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/08-create-server-and-applications.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/10-monitoring.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/09-Cost-Estimator.md",
         "Order": 11
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/10-monitoring.md",
+        "Order": 12
       },
      
     ] 
