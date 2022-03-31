@@ -2,7 +2,11 @@
 
 ## Overview
 
+Azure Monitor helps you maximize the availability and performance of your applications and services. Nerdio Manager for MSP lets us view the Azure Monitoring insights through the NMM Portal. In this lab, you'll be accessing the Azure Monitor using Nerdio Manager for MSP and monitoring the Azure Virtual Desktop in Azure portal.
+
 ## Exercise 1: Access Azure Monitor using Nerdio Manager
+
+In this exercise, you'll be accessing the Azure Monitor using Nerdio Manager and monitoring the Azure Virtual Desktop in Azure portal. 
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
