@@ -20,7 +20,7 @@ In this hands-on lab, you will implement an Azure Virtual Desktop (formerly Wind
 
 You will also deploy the Azure infrastructure for the Azure Virtual Desktop Tenant(s), Host pool which is  a collection of one or more identical virtual machines (VMs), also known as session hosts within Azure Virtual Desktop environments. A default Application group will be created which is a collection of remote applications that you can present to a user or group of users. You will publish desktops and remote apps with the help of application group. You will be configuring FSLogix for user profile solution which stores a complete user profile in a single container. You will be configuring windows server machine to run QuickBooks Database Manager. You will be configuring Autoscaling to reduce the cost effectively . You will be configuring back up for the session hosts and FSLogix file share for recovery incase of a diaster. You will be cobfiguring NAT gateway for the virtul netowork to simplify outbound Internet connectivity. Finally, you will explore on Cost Estimator and Monitoring for the Azure Virtual Desktop infrastructure.
 
-## **Lab 1: Lab 1: Create NMM Account**
+## **Lab 1: Create NMM Account**
 
 In this lab with the help of Nerdio Manager for MSPs(NMM) and Azure portal, you'll create a Nerdio account and explore the resources deployed by NMM. NMM manages Multi-tenant Azure Virtual Desktop and Windows 365 Deployment, Management, and Optimization Platform for Managed Service Providers.
 
