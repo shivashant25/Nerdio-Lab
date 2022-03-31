@@ -1,4 +1,4 @@
-# Lab 3: Create users and groups in NMM portal
+# Lab 3: Create users and assign users to security groups
 
 ## Overview
 
@@ -6,7 +6,7 @@ A security group can have users, devices, groups and service principals as its m
 
 ## Exercise 1: Create new users for AVD
 
-In this exercise, you'll be creating new users by specifying their credentials in your NMM Account.
+In this exercise, you'll be creating new users for assigning them to the existing security group in order to access AVD environment.
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
