@@ -38,7 +38,12 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/09-Cost-Estimator.md",
         "Order": 9
-      }  
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/10-monitoring.md",
+        "Order": 10
+      },
+     
     ] 
   }
 ]  
