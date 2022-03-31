@@ -1,5 +1,9 @@
 # Lab 4: Configure FSLogix and Access the Desktop using AVD Desktop Client
 
+## Overview
+
+Azure Virtual Desktop (AVD) integrates virtual desktop infrastructure (VDI) and the cloud. AVD is Microsoft Azure’s platform-as-a-service (PaaS) offering from Microsoft. It enables small to large cloud consumers to provide remote applications and full desktops from Microsoft cloud to their end users. FSLogix enhances and enables user profiles in Windows remote computing environments. FSLogix solutions have unique integration and advantages when used in conjunction with Azure Virtual Desktop
+
 ## Exercise 1: Access the Desktop using AVD Desktop Client
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using the AVD Desktop client.
