@@ -1,6 +1,12 @@
 # Lab 1: Create NMM Account
 
+## Overview
+
+Azure AD Security Groups are Security Principals, which means they can be used to secure objects in Azure AD. They can be created natively in Azure AD, or synced from Windows AD with Azure AD Connect.
+
 ## Exercise 1: Create Groups in Azure AD.
+
+In this exercise, you'll be creating two security groups from Azure Active Directory by logging into the Azure Portal.
 
 1. Navigate to the Azure portal, then search for **Active Directory** in the search bar and select **Azure Active Directory** from the suggestions.
 
@@ -36,11 +42,13 @@
 
 ## Exercise 2: Getting started with NMM
 
+In this exercise, you'll be navigating to the dynamic RG from resource groups created during the creation your NMM resource, selecting the **App service** from the list of resources, registering for **Nerdio Manager for MSP** with the help of Powershell commands and creating your own **NMM Account** from the **NMM Portal**.
+
 1. On the **Azure portal** search for **Resource groups** in the search bar (1) and select **Resource groups** (2) from the suggestions.
 
    ![](media/s10.png)
    
-1. Select **mrg-nmm-[unique]** from the list of reosurce groups which is a dynamic RG created during creation NMM resource. It contains all the required resources.
+1. Select **NMM-RESOURCES-RG** from the list of reosurce groups which is a dynamic RG created during creation NMM resource. It contains all the required resources.
 
    ![](media/ss1.png)
    
