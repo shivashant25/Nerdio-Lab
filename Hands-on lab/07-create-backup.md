@@ -1,6 +1,12 @@
 # Lab 7: Create Backup
 
-## Exercise 1: Create Rescovery service vaults and policy
+## Overview
+
+The Azure Backup service provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud. In this lab, you'll be creating a backup recovery vault, configuring policies to that vault and enabling backup for those policies.
+
+## Exercise 1: Create Recovery service vaults and policy
+
+In this exercise, you'll be creating a recovery vault and backup policies in your NMM Account.
 
 1. 1. From the NMM portal, click on **ACCOUNTS** *(1)* from the side blade and click on **Manange** *(2)* on your NMM Account.
 
@@ -58,6 +64,8 @@
    ![](media/7ss6.png)
    
 ## Exercise 2: Enable Backup for Session desktop and File share
+
+In this exercise, you'll be enabling backup for the policies that you created in the previous exercise.
 
 1. From the NMM portal, click on **ACCOUNTS** *(1)* from the side blade and click on **Manange** *(2)* on your NMM Account.
 
