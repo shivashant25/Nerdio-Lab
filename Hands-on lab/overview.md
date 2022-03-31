@@ -20,13 +20,13 @@ In this hands-on lab, you will implement an Azure Virtual Desktop (formerly Wind
 
 You will also deploy the Azure infrastructure for the Azure Virtual Desktop Tenant(s), Host pool which is  a collection of one or more identical virtual machines (VMs), also known as session hosts within Azure Virtual Desktop environments. A default Application group will be created which is a collection of remote applications that you can present to a user or group of users. You will publish desktops and remote apps with the help of application group. You will be configuring FSLogix for user profile solution which stores a complete user profile in a single container. You will be configuring windows server machine to run QuickBooks Database Manager. You will be configuring Autoscaling to reduce the cost effectively . You will be configuring back up for the session hosts and FSLogix file share for recovery incase of a diaster. You will be cobfiguring NAT gateway for the virtul netowork to simplify outbound Internet connectivity. Finally, you will explore on Cost Estimator and Monitoring for the Azure Virtual Desktop infrastructure.
 
-## **Lab 1: Lab 1: Create NMM Account*
+## **Lab 1: Lab 1: Create NMM Account**
 
 In this lab with the help of Nerdio Manager for MSPs(NMM) and Azure portal, you'll create a Nerdio account and explore the resources deployed by NMM. NMM manages Multi-tenant Azure Virtual Desktop and Windows 365 Deployment, Management, and Optimization Platform for Managed Service Providers.
 
 You will be creating an account using already deployed Azure active directory domain service(AAD DS) instance and other required resources. Since Contoso is already using an AAD DS Service, AAD DS Service will provide Identity and Authentication service.
 
-## **Lab 2: Create Desktop Image and Host pool*
+## **Lab 2: Create Desktop Image and Host pool**
 
 In this lab we will deploy a Azure Virtual Desktop host pool for pooled desktops. This is a set of computers or hosts which operate on an as-needed basis. In a pooled configuration we will be hosting multiple non-persistent sessions, with no user profile information stored locally. This is where FSLogix Profile Containers provide the users profile to the host dynamically. This provides the ability for an organization to fully utilize the compute resources on a single host and lower the total overhead, cost, and number of remote workstations.
 
