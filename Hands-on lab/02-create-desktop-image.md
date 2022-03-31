@@ -8,6 +8,8 @@ Host pools are groups of Azure VMs that "host" the Azure Virtual Desktops that e
 * Single User Desktop (Pooled)
 * Single User Desktop (Personal)
 
+In this lab, you'll be creating a desktop image and a host pool in your NMM Acount.
+
 ## Exercise 1: Create Desktop Image
 
 In this exercise, you'll be creating a Desktop Image as per the specifications in your NMM Account.
