@@ -2,7 +2,7 @@
 
 ## Overview
 
-Azure AD Security Groups are Security Principals, which means they can be used to secure objects in Azure AD. They can be created natively in Azure AD, or synced from Windows AD with Azure AD Connect.
+Azure AD Security Groups are Security Principals, which means they can be used to secure objects in Azure AD. They can be created natively in Azure AD, or synced from Windows AD with Azure AD Connect. NMM Partner API allows MSPs to automate various actions in NMM via API that they can do via the NMM portal. For examples, MSPs can create & manage host pools, hosts, desktop images all via the API. In this lab, you'll be creating groups in Azure AD, accessing the NMM portal using the web app and creating a NMM Account.
 
 ## Exercise 1: Create Groups in Azure AD.
 
@@ -42,7 +42,7 @@ In this exercise, you'll be creating two security groups from Azure Active Direc
 
 ## Exercise 2: Getting started with NMM
 
-In this exercise, you'll be navigating to the dynamic RG from resource groups created during the creation your NMM resource, selecting the **App service** from the list of resources, registering for **Nerdio Manager for MSP** with the help of Powershell commands and creating your own **NMM Account** from the **NMM Portal**.
+In this exercise, you'll be accessing the NMM portal using the web app, registering for **Nerdio Manager for MSP** with the help of Powershell commands and creating your own **NMM Account** from the **NMM Portal**.
 
 1. On the **Azure portal** search for **Resource groups** in the search bar (1) and select **Resource groups** (2) from the suggestions.
 
