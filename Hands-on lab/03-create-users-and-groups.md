@@ -2,7 +2,7 @@
 
 ## Overview
 
-A security group can have users, devices, groups and service principals as its members and users and service principals as its owners. NMM Portal lets us create users and security groups and also gives us the liberty to assign the users to a group for further configurations. 
+A security group can have users, devices, groups and service principals as its members and users and service principals as its owners. NMM Portal lets us create users and security groups and also gives us the liberty to assign the users to a group for further configurations. In this lab, you'll be creating new users in your NMM Account and assigning them to an Azure AD security group.
 
 ## Exercise 1: Create new users for AVD
 
