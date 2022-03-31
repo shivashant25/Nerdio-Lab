@@ -1,6 +1,12 @@
 # Lab 5: Configure Auto Scaling
 
+## Oerview
+
+The autoscale feature lets you scale your **AVD Host Pools** up or down to optimize deployment costs. Based on your needs, you can make a scaling plan based on time of day, specific days of the week and session limits per session host.
+
 ## Exercise 1: Configure Auto Scaling
+
+In this exercise, you'll be configuring auto-scalling to an existing AVD Host Pool in your NMM Account.  
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
