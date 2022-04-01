@@ -59,5 +59,16 @@ A custom domain is a unique branded label that's connected to the IP address of 
    
 1. Now navigate to Azure Active Directory, Select **App Registrations** and find the web admin portal application.  If your Web Admin Portal application is not shown, ensure "All Applications" is clicked.  This screen may default to **Owned Applications**.
 
-1. In the menu on the left, select the **Authentication** tab. 
-3. 
+1. In the menu on the left, select the **Authentication** tab. Under Redirect URIs, do not remove the original URL but do add URIs for your custom domain. Click "Save" option.
+
+   >**NOTE**: if you do not see the Redirect URIs section, click "Add a platform" and select "Web." Then add the necessary Redirect URIs.
+
+1. Click on Configuration, then Application Settings.
+
+   ![](media/6s9.png)
+   
+1. Find the setting for Deployment:WebAppUrl and change it to your custom domain (without the trailing slash). Click on **OK**.
+
+   ![](media/6s9.png)
+   
+1. Verify that your custom domain for NMM works by navigating to https://<your custom domain>/
