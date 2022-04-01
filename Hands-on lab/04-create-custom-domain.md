@@ -1,4 +1,4 @@
-# Lab 6: Create Custom domain
+# Lab 4: Create Custom domain
 
 ## Overview
 
