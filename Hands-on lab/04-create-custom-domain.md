@@ -1,4 +1,4 @@
-# Lab 4: Create Custom domain
+# Lab 4: How to create custom domains for your websites
 
 ## Overview
 
