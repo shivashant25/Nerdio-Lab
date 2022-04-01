@@ -101,7 +101,7 @@ In this exercise, you'll be creating a Multi User Desktop (Pooled) AVD Host Pool
 
    ![](media/2ss13.png)
    
-   >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes.
+   >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes. You can continue with the lab as we are not goig the image for host pool creation.
    
  1. Once the session hosts creation completes, You'll be able to see the session hosts in the host pool.
 
