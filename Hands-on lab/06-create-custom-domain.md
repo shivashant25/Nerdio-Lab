@@ -67,10 +67,10 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
 1. Click on Configuration, then Application Settings.
 
-   ![](media/6s9.png)
+   ![](media/6s10.png)
    
 1. Find the setting for Deployment:WebAppUrl and change it to your custom domain (without the trailing slash). Click on **OK**.
 
-   ![](media/6s9.png)
+   ![](media/6s11.png)
    
 1. Verify that your custom domain for NMM works by navigating to https://<your custom domain>/
