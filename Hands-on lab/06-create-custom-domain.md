@@ -6,6 +6,8 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
 ## Exercise 1: Create Custom Domain
 
+>**NOTE**: This Exercise is **Read-Only** exercise. Please do no perform the steps. Please go through the lab guide to understand the implementation.
+
 1. On the **Azure portal** search for **Resource groups** in the search bar (1) and select **Resource groups** (2) from the suggestions.
 
    ![](media/s10.png)
