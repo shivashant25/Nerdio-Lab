@@ -1,4 +1,4 @@
-# Lab 1: Create NMM Account
+# Lab 1: Configure NMM and Create NMM Account
 
 ## Overview
 
