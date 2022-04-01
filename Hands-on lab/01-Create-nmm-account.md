@@ -60,7 +60,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
    ![](media/ss3.png)
    
-1. From the Web page, **Copy** *(1)* the PowerShell command which you'll be using it later and click on **Launch Azure Cloud Shell** *(2)*
+1. From the Web page, **Copy** *(1)* the PowerShell command and store it in Notepad which you'll be using it later and click on **Launch Azure Cloud Shell** *(2)*
  
    ![](media/s4.1.png)
    
@@ -68,7 +68,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
     
    ![](media/s5.png)
    
-1. Use existing **JumpVM-RG** for the resource group. Create new storage account as **Storage[Deploymentid]** and blob storage as **blob**.
+1. Use existing **JumpVM-RG** for the resource group. Create new storage account as **storage<inject key="DeploymentID" enableCopy="false" />** and blob storage as **blob**. 
 
    ![](media/s6.png)
    
@@ -78,14 +78,14 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
    >**NOTE**: The execution of the command will take 5 - 10 minutes to complete. Wait till the execution completes.
 
-1. Go to the web page and refresh the web page. Click on **Accept** to provide the neccessary permissions.
+1. Navigate back to the previous tab and refresh the web page. Click on **Accept** to provide the neccessary permissions.
 
    ![](media/s8.png)
    
 1. Please provide the following details in the registartion page
 
    - **Company**: Select the default subscription *(1)*
-   - **Name**: odl_user_{deploymentid} *(2)*
+   - **Name**: odl_user_<inject key="DeploymentID" enableCopy="false" /> *(2)*
    - **Email**: **<inject key="Username" />** *(3)*
    - **Country**: Select your country *(4)*
    
