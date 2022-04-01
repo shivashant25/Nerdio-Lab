@@ -1,4 +1,4 @@
-# Lab 7: Monitoring using Azure Monitor for AVD
+# Lab 7: Configure Network by adding NAT Gateway
 
 ## Overview
 
