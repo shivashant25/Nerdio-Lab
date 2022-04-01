@@ -22,8 +22,42 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
    ![](media/6s1.png)
    
-1. Click on **Add custom domains** *(1)*. In **Add custom domains** pop up, Provide **nmm.mynerdio.com** *(2)* for custom domain option and click on **Validate** *(3)*.
+1. Copy the app service's default domain.
 
+   ![](media/6s3.png)
+
+1. Create a new CNAME record in your domain's public DNS zone for the custom domain you want to add. (For example, nmm.mydomain.com). This CNAME record should point to the existing app's URL with the following configurations:
+
+   - Record Type: CNAME
+   - Name: nmm.mydomain.com
+   - Value: the app service default URL
+   - TTL: 1800 (or your preferred default)
+   
+1. Click on **Add custom domains** *(1)*. In **Add custom domains** pop up, Provide **nmm.mynerdio.com** *(2)* for custom domain option and click on **Validate** *(3)*.
+   
    ![](media/6s2.png)
    
+1. After validation succeeds, click the "Add custom domain" button to finish adding the domain.
    
+   ![](media/6s4.png)
+   
+1. To ensure traffic to the new domain is secure, click "Add binding" under SSL binding:
+   
+   ![](media/6s5.png)
+   
+1. Click **Upload PFX Certificate** to provide the export of your certificate file.
+
+   ![](media/6s6.png)
+   
+1. You may also purchase an SSL certificate through Azure, by navigating to the App Service's TLS/SSL Settings.
+
+   ![](media/6s7.png)
+   
+1. Once the certificate is uploaded, associate the new domain to the certificate and click "Add Binding" button.
+
+   ![](media/6s8.png)
+   
+1. Now navigate to Azure Active Directory, Select **App Registrations** and find the web admin portal application.  If your Web Admin Portal application is not shown, ensure "All Applications" is clicked.  This screen may default to **Owned Applications**.
+
+1. In the menu on the left, select the **Authentication** tab. 
+3. 
