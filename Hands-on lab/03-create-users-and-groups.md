@@ -8,7 +8,7 @@ A security group can have users, devices, groups and service principals as its m
 
 In this exercise, you'll be creating new users for assigning them to the existing security group in order to access AVD environment.
 
-1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
+1. From the NMM portal, Click on **Accounts** *(1)* from the left hand side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
 
    ![](media/2s1.png)
 
@@ -21,8 +21,8 @@ In this exercise, you'll be creating new users for assigning them to the existin
    - **FIRST NAME**: *nmmuser (1)*
    - **LAST NAME**: *01 (2)*
    - **PRIMARY EMAIL ADDRESS**: *nmmuser01 (3)*
-   - **USERNAME**: Check the *Make username as primary email address (4)*
-   - Click on ***OK*** *(5)*
+   - **USERNAME**: Select the *Make username as primary email address* check box *(4)*
+   - Click on **Save** *(5)*
 
    ![](media/3s2.png)
    
