@@ -85,8 +85,8 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 1. Please provide the following details in the registartion page
 
    - **Company**: Select the default subscription *(1)*
-   - **Name**: odl_user_<inject key="DeploymentID" enableCopy="false" /> *(2)*
-   - **Email**: **<inject key="Username" />** *(3)*
+   - **Name**: odl_user_<inject key="DeploymentID" /> *(2)*
+   - **Email**: **<inject key="AzureAdUserEmail" />** *(3)*
    - **Country**: Select your country *(4)*
    
    Click on **Register**.
