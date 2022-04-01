@@ -1,4 +1,4 @@
-# Lab 4: Configure FSLogix and Access the Desktop using AVD Desktop Client
+# Lab 8: Configure FSLogix and Access the Desktop using AVD Desktop Client
 
 ## Overview
 
