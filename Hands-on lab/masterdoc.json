@@ -24,7 +24,7 @@
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/04-access-session-dekstop.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/04-create-custom-domain.md",
         "Order": 6
       },
       {
@@ -32,24 +32,28 @@
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/06-create-custom-domain.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/06-create-server-and-applications.md",
         "Order": 8
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/07-create-backup.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/07-configure-NAT-gateway.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/08-create-server-and-applications.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/08-access-session-desktop.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/09-Cost-Estimator.md",
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/09-create-backup.md",
         "Order": 11
       },
       {
         "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/10-monitoring.md",
         "Order": 12
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/Shivashant25/Nerdio-Lab/main/Hands-on%20lab/11-Cost-Estimator.md",
+        "Order": 13
       },
      
     ] 
