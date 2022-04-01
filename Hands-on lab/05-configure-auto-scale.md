@@ -15,8 +15,18 @@ In this exercise, you'll be configuring auto-scalling of an existing AVD Host Po
 1. From your NMM account home page, Expand the **AVD** *(1)* drop down and Select **Hostpool** *(2)*.
 
    ![](media/2s5.png)
+   
+1. You'll be able to see the **AVD-HP-01** in the host pool side blade. Click on **Manage** *(1)*.
 
-1. From the Host pool page *(1)*, Select **Auto-Scale** *(2)* from the drop down and click on **configure** *(3)*.
+   ![](media/2ss11.png)
+   
+1. Please make sure both the session hosts in the host pool are created before moving to next step.
+
+   ![](media/2ss14.png)
+    
+   >**NOTE**: If Session hosts are still deploying. Please wait till the creation task completes.
+
+1. Go back to host pool page *(1)*, Select **Auto-Scale** *(2)* from the drop down and click on **configure** *(3)*.
 
    ![](media/5s1.png)
    
