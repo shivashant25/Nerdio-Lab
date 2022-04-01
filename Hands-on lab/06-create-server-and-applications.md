@@ -1,5 +1,7 @@
 # Lab 6: Create server and application
 
+# Skip this lab as its under development.
+
 ## Exercise 1: Create server instance
 
 1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
