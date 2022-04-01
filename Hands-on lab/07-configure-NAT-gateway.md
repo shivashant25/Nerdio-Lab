@@ -1,4 +1,4 @@
-# Lab 10: Monitoring using Azure Monitor for AVD
+# Lab 7: Monitoring using Azure Monitor for AVD
 
 ## Overview
 
