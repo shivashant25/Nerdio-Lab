@@ -1,4 +1,4 @@
-# Lab 8: Create server and application
+# Lab 6: Create server and application
 
 ## Exercise 1: Create server instance
 
