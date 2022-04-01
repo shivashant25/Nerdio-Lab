@@ -39,11 +39,11 @@ A custom domain is a unique branded label that's connected to the IP address of 
    
    ![](media/6s2.png)
    
-1. After validation succeeds, click the "Add custom domain" button to finish adding the domain.
+1. After validation succeeds, click the **Add custom domain** button to finish adding the domain.
    
    ![](media/6s4.png)
    
-1. To ensure traffic to the new domain is secure, click "Add binding" under SSL binding:
+1. To ensure traffic to the new domain is secure, click **Add binding** under SSL binding:
    
    ![](media/6s5.png)
    
