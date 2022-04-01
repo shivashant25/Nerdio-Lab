@@ -33,7 +33,7 @@ In this exercise, you'll be creating a Desktop Image as per the specifications i
 
    ![](media/2ss3.png)
    
-   >**NOTE**: Image creation will take 40 - 45 minutes. Please wait untill it completes.
+   >**NOTE**: Image creation will take 40 - 45 minutes. You can continue with the lab as we are not going use the image for host pool creation.
    
 1. Once the image creation is completed. You'll be able to see the image in the Desktop image side blade.
 
@@ -101,11 +101,7 @@ In this exercise, you'll be creating a Multi User Desktop (Pooled) AVD Host Pool
 
    ![](media/2ss13.png)
    
-   >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. Please wait untill it completes. You can continue with the lab as we are not goig the image for host pool creation.
-   
- 1. Once the session hosts creation completes, You'll be able to see the session hosts in the host pool.
-
-    ![](media/2ss14.png)
+   >**NOTE**: **Session hosts** creation will take around 30 - 40 minutes to complete. You can continue with the lab and visit the page later.
     
  1. Click on the Next button present in the bottom-right corner of this lab guide.
    
