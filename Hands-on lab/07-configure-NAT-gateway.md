@@ -6,30 +6,27 @@ Virtual Network NAT (network address translation) simplifies outbound-only Inter
 
 ## Exercise 1: Configure NAT gateway using Nerdio Manager
 
-In this exercise, you'll be congiguring NAT gateway for the existing virtual network and assign new public IP address.
-
-1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
-
-   ![](media/2s1.png)
+In this exercise, We'll be configuring NAT gateway for the existing virtual network and assign new public IP address.
    
-1. Select **NETWORK** *(1)* drop down from the side blade. Select **NAT Gateway** *(2)* and click on **Add NAT Gateway** *(3)*.
+1. On the left-hand side blade click on **NETWORK** *(1)*, Select **NAT Gateway** *(2)*, and click on **Add NAT Gateway** *(3)*.
 
    ![](media/10s1.png)
    
-1. In ADD NAT GATEWAY window, Provide the following details to create new NAT gateway.
+1. Under **ADD NAT GATEWAY** window, Provide the following details, and Click on **OK** *(10)*
 
    - NAME: **NMM_NAT** *(1)*
-   - RESOURCE GROUP: **AVD-RG** *(2)*
-   - REGION: **<inject key="Resource group Location" />** *(3)*
+   - RESOURCE GROUP: Select **AVD-RG** *(2)* from the drop down
+   - REGION: **<inject key="Resource group Location" enableCopy="false" />** *(3)*
    - VNET: **aadds-vnet** *(4)*
-   - SUBNETS: **sessionhosts-subnet* *(5)*
+   - SUBNETS: **sessionhosts-subnet** *(5)*
    - IDLE TIMEOUT: **5** *(6)*
    - AVAILABILITY ZONE: **No Zone** *(7)*
-   - PUBLIC IP ADDRESS: Select **Create new Public_IP** *(8)* and provide name as **NMM_NAT_IP** *(9)*
-   - Click on **OK** *(10)*
+   - PUBLIC IP ADDRESS: Select **Create new Public IP** *(8)* and provide name as **NMM_NAT_IP** *(9)*
 
    ![](media/10s2.png)
    
 1. Once the creation task completes, You'll be able see and manage your new NAT gateway.
 
-  ![](media/10s3.png)
+   ![](media/10s3.png)
+
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
