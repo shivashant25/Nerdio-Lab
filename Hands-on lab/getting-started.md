@@ -10,7 +10,7 @@
 
 ## Exercise 1: Log in to Azure Portal
 
-1. In the JumpVM, double click on the **Azure portal shortcut** on the desktop.
+1. In the JumpVM, double click on the **Azure portal** shortcut on the desktop.
 
    ![azure portal.](media/gs3.png)  
 
@@ -36,7 +36,7 @@
 
    ![](media/gs8.png)
 
-4. Now in the Azure portal, click on **Resource Groups** present under *Navigate*.
+4. Now in the Azure portal, click on **Resource Groups** present under Navigate.
 
    ![](media/gs9.png)
 
@@ -44,5 +44,7 @@
 
    ![](media/gs10.png)
    
-Click on the Next button present in the bottom-right corner of this lab guide.
+Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
 
