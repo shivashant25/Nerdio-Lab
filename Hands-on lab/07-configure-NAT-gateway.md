@@ -25,8 +25,11 @@ In this exercise, We'll be configuring NAT gateway for the existing virtual netw
 
    ![](media/10s2.png)
    
-1. Once the NAT gateway is created, You'll be able see it under NAT gateway.
+1. Once the NAT gateway is created, You'll be able see it under NAT GATEWAY.
 
    ![](media/10s3.png)
 
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+
