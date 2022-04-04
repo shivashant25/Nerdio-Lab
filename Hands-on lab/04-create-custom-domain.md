@@ -4,23 +4,22 @@
 
 A custom domain is a unique branded label that's connected to the IP address of a website. To visit a particular site, you can type its custom domain name into the address bar of your browser. In this lab, you'll be creating a custom domain of an App Service through Azure portal.
 
-## Exercise 1: Create Custom Domain ***(Read Only)***
+## Exercise 1: Create Custom Domain **(Read Only)**
 
->**NOTE**: This Exercise is **Read-Only** exercise. Please do no perform the steps. Please go through the lab guide to understand the implementation.
+>**NOTE**: This is a **Read-Only** exercise, Do not perform these steps. Please go through the lab guide to understand the implementation of adding custom domains.
 
 1. On the **Azure portal** search for **Resource groups** in the search bar *(1)* and select **Resource groups** *(2)* from the suggestions.
 
    ![](media/s10.png)
    
-1. Select **NMM-RESOURCES-RG** from the list of reosurce groups which is a dynamic RG created during creation NMM resource. It contains all the required resources.
-
+1. Select **NMM-RESOURCES-RG** from the list of reosurce groups which is a dynamic RG created during creation NMM.
    ![](media/ss1.png)
    
-1. Select the **App service** from the list of resources.
+1. Select the App service from the name, **web-admin-portal-[unique ID]** from the list of resources.
 
    ![](media/ss2.png)
    
-1. From the left hand side blade under **Settings** *(1)*, Select **Custom domains** *(2)*. 
+1. From the left-hand side blade under **Settings** *(1)*, Click on **Custom domains** *(2)*. 
 
    ![](media/6s1.png)
    
@@ -73,4 +72,10 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
    ![](media/6s11.png)
    
-1. Verify that your custom domain for NMM works by navigating to https://<your custom domain>/
+1. Verify that your custom domain for NMM works by navigating to **https://your custom domain/**.
+
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+
+
