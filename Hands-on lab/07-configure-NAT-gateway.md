@@ -4,7 +4,7 @@
 
 Virtual Network NAT (network address translation) simplifies outbound-only Internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses your specified static public IP addresses. Outbound connectivity is possible without a load balancer or public IP addresses directly attached to virtual machines. NAT is fully managed and highly resilient.
 
-## Exercise 1: Access Azure Monitor using Nerdio Manager
+## Exercise 1: Configure NAT gateway using Nerdio Manager
 
 In this exercise, you'll be congiguring NAT gateway for the existing virtual network and assign new public IP address.
 
