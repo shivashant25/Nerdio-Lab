@@ -74,7 +74,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
     
 13. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
-   ![ws name.](media/4s16.png)
+    ![ws name.](media/4s16.png)
    
 ## Exercise 2: Verifying the User profiles stored in File share
 
