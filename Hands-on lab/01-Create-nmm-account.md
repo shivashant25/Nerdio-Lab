@@ -165,7 +165,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
    ![](media/s19.png)
 
-1. Click on the Next button present in the bottom-right corner of this lab guide.
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
 
 
