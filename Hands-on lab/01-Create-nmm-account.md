@@ -10,7 +10,7 @@ In this exercise, you'll be creating two security groups from Azure Active Direc
 
 1. Navigate to the Azure portal, then search for **Azure Active Directory** *(1)* in the search bar and select **Azure Active Directory** *(2)* from the suggestions.
 
-    ![](media/ss4.png)
+    ![](media/c1.png)
     
 2. You will be directed towards the Azure Active Directory Overview window.
 
@@ -26,19 +26,19 @@ In this exercise, you'll be creating two security groups from Azure Active Direc
     
 5. Select the Group type as **Security** *(1)*, Group **Standard AVD** *(2)* and click on **Create** *(3)*. Your group will be created successfully.
 
-    ![](media/ss9.png)
+    ![](media/c2.png)
 
 6. Again click on **New group**.
 
     ![](media/ss7.png)
 
-7. Select the Group type as **Security** *(1)*, Group **Standard AVD** *(2)* and click on **Create** *(3)*. Your group will be created successfully.
+7. Select the Group type as **Security** *(1)*, Group **AVD QuickBooks Users** *(2)* and click on **Create** *(3)*. Your group will be created successfully.
 
-    ![](media/ss10.png)
+    ![](media/c3.png)
     
 8. Now in the **Groups | All groups**, Click on **Refresh**. You will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users**.
 
-    ![](media/ss11.png)
+    ![](media/c4.png)
 
 ## Exercise 2: Getting started with NMM
 
@@ -46,7 +46,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
 1. On the Azure portal search for **Resource groups** in the search bar *(1)* and select **Resource groups** *(2)* from the suggestions.
 
-   ![](media/s10.png)
+   ![](media/c5.png)
    
 1. Select **NMM-RESOURCES-RG** from the list of resource groups which is a dynamic RG created during creation of NMM resource. It contains all the required resources.
 
@@ -62,11 +62,11 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    
 1. From the Nerdio portal, Click on the **Copy** *(1)* button to copy the PowerShell command and paste it in the Notepad as you'll be using later in the lab and then click on the **Launch Azure Cloud Shell** *(2)*.
  
-   ![](media/s4.1.png)
+   ![](media/c6.png)
    
 1. Now you'll be redirected to **Welcome to Azure Cloud Shell** window, Here click on **PowerShell**.
 
-
+   ![](media/c7.png)
    
 1. Click on **Show advanced settings** to configure a new storage account.
     
@@ -84,7 +84,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
 1. Navigate back to the previous **browser tab** *(1)* and **refresh** *(2)* the web page. Click on **Accept** *(3)* to provide the neccessary permissions.
 
-   ![](media/s8.png)
+   ![](media/c8.png)
    
 1. Provide the following details in the registartion page, and click on **Register**.
 
