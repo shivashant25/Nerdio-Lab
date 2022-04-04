@@ -18,15 +18,15 @@ In this exercise, you'll be congiguring NAT gateway for the existing virtual net
    
 1. In ADD NAT GATEWAY window, Provide the following details to create new NAT gateway.
 
-   - **NAME**: *NMM_NAT (1)*
-   - **RESOURCE GROUP**: *AVD-RG (2)*
-   - **REGION**: *<inject key="Resource group Location" /> (3)*
-   - **VNET**: *aadds-vnet (4)*
-   - **SUBNETS**: *sessionhosts-subnet (5)*
-   - **IDLE TIMEOUT**: *5 (6)*
-   - **AVAILABILITY ZONE**: *No Zone (7)*
-   - **PUBLIC IP ADDRESS**: Select ***Create new Public_IP*** *(8)* and provide name as ***NMM_NAT_IP*** *(9)*
-   - Click on ***OK*** *(10)*
+   - NAME: **NMM_NAT** *(1)*
+   - RESOURCE GROUP: **AVD-RG** *(2)*
+   - REGION: **<inject key="Resource group Location" />** *(3)*
+   - VNET: **aadds-vnet** *(4)*
+   - SUBNETS: **sessionhosts-subnet* *(5)*
+   - IDLE TIMEOUT: **5** *(6)*
+   - AVAILABILITY ZONE: **No Zone** *(7)*
+   - PUBLIC IP ADDRESS: Select **Create new Public_IP** *(8)* and provide name as **NMM_NAT_IP** *(9)*
+   - Click on **OK** *(10)*
 
    ![](media/10s2.png)
    

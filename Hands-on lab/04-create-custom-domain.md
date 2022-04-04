@@ -4,11 +4,11 @@
 
 A custom domain is a unique branded label that's connected to the IP address of a website. To visit a particular site, you can type its custom domain name into the address bar of your browser. In this lab, you'll be creating a custom domain of an App Service through Azure portal.
 
-## Exercise 1: Create Custom Domain
+## Exercise 1: Create Custom Domain ***(Read Only)***
 
 >**NOTE**: This Exercise is **Read-Only** exercise. Please do no perform the steps. Please go through the lab guide to understand the implementation.
 
-1. On the **Azure portal** search for **Resource groups** in the search bar (1) and select **Resource groups** (2) from the suggestions.
+1. On the **Azure portal** search for **Resource groups** in the search bar *(1)* and select **Resource groups** *(2)* from the suggestions.
 
    ![](media/s10.png)
    
@@ -20,7 +20,7 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
    ![](media/ss2.png)
    
-1. From **Settings** *(1)*, Select **Custom domains** *(2)* from the side blade. 
+1. From the left hand side blade under **Settings** *(1)*, Select **Custom domains** *(2)*. 
 
    ![](media/6s1.png)
    
@@ -28,14 +28,14 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
    ![](media/6s3.png)
 
-1. Create a new CNAME record in your domain's public DNS zone for the custom domain you want to add. (For example, nmm.mydomain.com). This CNAME record should point to the existing app's URL with the following configurations:
+1. Create a new *CNAME* record in your domain's public DNS zone for the custom domain you want to add. (For example, nmm.mydomain.com). This CNAME record should point to the existing app's URL with the following configurations:
 
-   - Record Type: CNAME
-   - Name: nmm.mydomain.com
+   - Record Type: **CNAME**
+   - Name: **nmm.mydomain.com**
    - Value: the app service default URL
-   - TTL: 1800 (or your preferred default)
+   - TTL: **1800** (or your preferred default)
    
-1. Click on **Add custom domains** *(1)*. In **Add custom domains** pop up, Provide **nmm.mynerdio.com** *(2)* for custom domain option and click on **Validate** *(3)*.
+1. Click on **Add custom domains** *(1)*. Under **Add custom domains**, Provide **nmm.mynerdio.com** *(2)* for custom domain option and click on **Validate** *(3)*.
    
    ![](media/6s2.png)
    

@@ -22,10 +22,10 @@ In this exercise, you'll be creating a recovery vault and backup policies in you
    
 1. Provide the following details to add a new vault.
 
-   * **NAME**:  *nmmvault* *(1)*
-   * **RESOURCE GROUP**:  *AVD-RG* *(2)*
-   * **REGION**:  *EAST US 2* *(3)*
-   * **REPLICATION TIME**:  *Geo-redundant* *(4)*
+   * *NAME*:  **nmmvault** *(1)*
+   * RESOURCE GROUP:  **AVD-RG** *(2)*
+   * REGION:  **EAST US 2** *(3)*
+   * REPLICATION TIME:  **Geo-redundant** *(4)*
    * click on **Save** *(5)*
    
    ![](media/7s3.png)
@@ -36,13 +36,13 @@ In this exercise, you'll be creating a recovery vault and backup policies in you
    
 1. In **ADD POLICY** page, provide the following details to add a new policy.
 
-   * **NAME**:  *nmmvmpolicy* *(1)*
-   * **TYPE**:  *Virtual Machine policy* *(2)*
-   * **FREQUENCY**:  *Weekly* *(3)*
+   * NAME:  **nmmvmpolicy** *(1)*
+   * TYPE:  **Virtual Machine policy** *(2)*
+   * FREQUENCY:  **Weekly** *(3)*
    * **Friday** *(4)*
    * **11 p.m.** *(5)*
    * **(UTC-06:00) Central Time (US $ Cannada)** *(6)*
-   * **RETENTION**:  *1* *(7)*
+   * RETENTION:  **1** *(7)*
    * Click on **Save** *(8)
    
    ![](media/7s5.png)
@@ -53,12 +53,12 @@ In this exercise, you'll be creating a recovery vault and backup policies in you
    
 1. In **ADD POLICY** page, provide the following details to add another new policy.
 
-   * **NAME**:  *nmmfilespolicy* *(1)*
-   * **TYPE**:  *Azure files policy* *(2)*
-   * **FREQUENCY**:  *Daily* *(3)*
+   * NAME:  **nmmfilespolicy** *(1)*
+   * TYPE:  **Azure files policy** *(2)*
+   * FREQUENCY:  **Daily** *(3)*
    * **11 p.m.** *(4)*
    * **(UTC-06:00) Central Time (US $ Cannada)** *(5)*
-   * **RETENTION**:  *1* *(6)*
+   * RETENTION:  **1** *(6)*
    * Click on **Save** *(7)*
    
    ![](media/7ss6.png)
