@@ -6,79 +6,68 @@ A security group can have users, devices, groups and service principals as its m
 
 ## Exercise 1: Create new users for AVD
 
-In this exercise, you'll be creating new users for assigning them to the existing security group in order to access AVD environment.
+In this exercise, We'll be creating new users for assigning them to the existing security group in order to access AVD environment.
 
-1. From the NMM portal, Click on **Accounts** *(1)* from the left hand side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
-
-   ![](media/2s1.png)
-
-1. Select **USERS** *(1)* from the side blade and click on **Add users** *(2)* to create a new image.
+1. Select **USERS** *(1)* from the left-hand side blade and click on **Add users** *(2)*.
 
    ![](media/3s1.png)
    
-1. Provide the following details to create the new user.
+1. Provide the following details to create a new user, and click on **Save** *(5)*.
 
-   - **FIRST NAME**: *nmmuser (1)*
-   - **LAST NAME**: *01 (2)*
-   - **PRIMARY EMAIL ADDRESS**: *nmmuser01 (3)*
-   - **USERNAME**: Select the *Make username as primary email address* check box *(4)*
-   - Click on **Save** *(5)*
+   - FIRST NAME: **nmmuser** *(1)*
+   - LAST NAME: **01** *(2)*
+   - PRIMARY EMAIL ADDRESS: **nmmuser01** *(3)*
+   - USERNAME: Select the **Make username as primary email address** *(4)* check box 
 
    ![](media/3s2.png)
    
-1. **Copy and save** *(1)* the user's password in a notepad which you'll be using later and click on **Ok** *(2)*.
+1. **Copy** *(1)* the password and paste in a notepad as it is required for later labs, and click on **Ok** *(2)*.
 
    ![](media/3s3.png)    
    
-1. Similarly, Let's create another user. Select **USERS** *(1)* from the side blade and click on **Add users** *(2)* to create a new image.
+1. . Click on **Add users**, to create another user.
 
    ![](media/3s4.png)
    
-1. Provide the following details to create the new user.
+1. Provide the following details to create a new user, and click on **Save** *(5)*.
 
-   - **FIRST NAME**: *nmmuser (1)*
-   - **LAST NAME**: *02 (2)*
-   - **PRIMARY EMAIL ADDRESS**: *nmmuser02 (3)*
-   - **USERNAME**: Check the *Make username as primary email address (4)*
-   - Click on ***OK*** *(5)*
+   - FIRST NAME: **nmmuser** *(1)*
+   - LAST NAME: **02** *(2)*
+   - PRIMARY EMAIL ADDRESS: **nmmuser02** *(3)*
+   - USERNAME: Check the **Make username as primary email address** *(4)*
 
    ![](media/3s5.png)
    
-1. **Copy and save** *(1)* the user's password in a notepad which you'll be using later and click on **Ok** *(2)*.
+1. **Copy** *(1)* the password and paste in a notepad as it is required for later labs, and click on **Ok** *(2)*.
 
    ![](media/3s6.png)
    
-1. Once the user creation completes. You'll be able to see new users in the **USERS** page in NMM portal.
+1. Once the user creation is completed. You'll be able to see new users in the **USERS** page in NMM portal.
 
    ![](media/3s11.png)
    
 ## Exercise 2: Assign new users to security group
 
-In this exercise, you'll be assigning the new users that you recently created to a security group in your NMM Account.
+In this exercise, We'll be assigning the new users to a security group.
 
-1. From the NMM portal, Click on **Accounts** *(1)* from the side blade and click on **Manage** *(2)* on your default NMM Account which you created in Lab 1.
-
-   ![](media/2s1.png)
-
-1. Select **GROUPS** *(1)* from the side blade and click on **Edit** *(2)* of the **Standard AVD** group to add new users to the group.
+1. In NMM portal, Select **GROUPS** *(1)* from the left-hand side blade and then click on **Edit** *(2)* next to the **Standard AVD** group.
 
    ![](media/3ss7.png)
    
-1. Provide the following details to add users to the group.
+1. Provide the following details to add users to the group, and click on ***Save*** *(5)*
 
-   - **GROUP TYPE**: *Security group (1)*
-   - **NAME**: *Standard AVD (2)*
-   - **MEMBERS**: Select *ODL_User, nmmuser01. nmmuser02 (3)* from the drop down
-   - **OWNERS**: Select *ODL_User (4)* from the drop down
-   - Click on ***Save*** *(5)*
+   - GROUP TYPE: **Security group** *(1)*
+   - NAME: **Standard AVD** *(2)*
+   - MEMBERS: Select **<inject key="AzureAdUserEmail" enableCopy="false" />**, **<inject key="Nmm User 01" enableCopy="false" />**, and **<inject key="Nmm User 02" enableCopy="false" />** *(3)* from the drop down
+   - OWNERS: Select **<inject key="AzureAdUserEmail" enableCopy="false" />** *(4)* from the drop down
    
    ![](media/3ss8.png)
    
-1. Once the new users are added to the **Standard AVD** group, cLick on the **drop down** icon of Standard AVD group and select the **Manage AVD desktops** option.
+1. Once the users are added to the **Standard AVD** group, Click on the **drop down** icon next to the edit button of Standard AVD group and select the **Manage AVD desktops** option.
 
    ![](media/3ss9.png)
    
-1. In **DESKTOP ASSIGNMENTS** page, Select the default **AVD-HP-01** *(1)* desktop host pool and click on **Confirm** *(2)*.
+1. Under **DESKTOP ASSIGNMENTS**, Select the **AVD-HP-01** *(1)* host pool and click on **Confirm** *(2)*.
 
    ![](media/3s10.png)
    
@@ -86,5 +75,9 @@ In this exercise, you'll be assigning the new users that you recently created to
 
    ![](media/3ss12.png)
    
-   
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+
+
     
