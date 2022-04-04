@@ -8,35 +8,35 @@ Azure AD Security Groups are Security Principals, which means they can be used t
 
 In this exercise, you'll be creating two security groups from Azure Active Directory by logging into the Azure Portal.
 
-1. Navigate to the Azure portal, then search for **Active Directory** in the search bar and select **Azure Active Directory** from the suggestions.
+1. Navigate to the Azure portal, then search for **Azure Active Directory** *(1)* in the search bar and select **Azure Active Directory** *(2)* from the suggestions.
 
     ![](media/ss4.png)
     
-2. You will be directed towards the Azure Active Directory **Overview** window.
+2. You will be directed towards the Azure Active Directory Overview window.
 
     ![](media/ss5.png)
     
-3. Click on the **Groups** tab under the **Manage** blade.
+3. Click on the **Groups** tab under the "Manage" blade.
 
     ![](media/ss6.png)
     
-4. Click on the **New Group**.
+4. Click on the **New group**.
 
     ![](media/ss7.png)
     
-5. Select the Group type as **Security**, name it **Standard AVD** and click on **Create**. Your group will be created successfully.
+5. Select the Group type as **Security** *(1)*, Group **Standard AVD** *(2)* and click on **Create** *(3)*. Your group will be created successfully.
 
     ![](media/ss9.png)
 
-6. Again click on **New Group**.
+6. Again click on **New group**.
 
     ![](media/ss7.png)
 
-7. Select the Group type as **Security**, name it **AVD QuickBooks Users** and click on **Create**. Your group will be created successfully.
+7. Select the Group type as **Security** *(1)*, Group **Standard AVD** *(2)* and click on **Create** *(3)*. Your group will be created successfully.
 
     ![](media/ss10.png)
     
-8. Now in the Groups window that comes up, under **All Groups**, you will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users**.
+8. Now in the **Groups | All groups**, Click on **Refresh**. You will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users**.
 
     ![](media/ss11.png)
 
@@ -44,52 +44,53 @@ In this exercise, you'll be creating two security groups from Azure Active Direc
 
 In this exercise, you'll be accessing the NMM portal using the web app, registering for **Nerdio Manager for MSP** with the help of Powershell commands and creating your own **NMM Account** from the **NMM Portal**.
 
-1. On the **Azure portal** search for **Resource groups** in the search bar (1) and select **Resource groups** (2) from the suggestions.
+1. On the Azure portal search for **Resource groups** in the search bar *(1)* and select **Resource groups** *(2)* from the suggestions.
 
    ![](media/s10.png)
    
-1. Select **NMM-RESOURCES-RG** from the list of reosurce groups which is a dynamic RG created during creation NMM resource. It contains all the required resources.
+1. Select **NMM-RESOURCES-RG** from the list of resource groups which is a dynamic RG created during creation of NMM resource. It contains all the required resources.
 
    ![](media/ss1.png)
    
-1. Select the **App service** from the list of resources.
+1. Select the App service from the name, **web-admin-portal-[unique ID]** from the list of resources.
 
    ![](media/ss2.png)
    
-1. From the App service page, Select the **URL** of the web page to access the Nerdio portal.
+1. From the App service page, Click on the **URL** to access the Nerdio portal.
 
    ![](media/ss3.png)
    
-1. From the Web page, **Copy** *(1)* the PowerShell command and store it in Notepad which you'll be using it later and click on **Launch Azure Cloud Shell** *(2)*
+1. From the Nerdio portal, Click on the **Copy** *(1)* button to copy the PowerShell command and paste it in the Notepad as you'll be using later in the lab and then click on the **Launch Azure Cloud Shell** *(2)*.
  
    ![](media/s4.1.png)
    
-1. Once the Cloud Shell launches, Click on **Show advanced settings** to configure a new storage account.
+1. Now you'll be redirected to **Welcome to Azure Cloud Shell** window, Here click on **PowerShell**.
+
+
+   
+1. Click on **Show advanced settings** to configure a new storage account.
     
    ![](media/s5.png)
    
-1. Use existing **JumpVM-RG** for the resource group. Create new storage account as **storage<inject key="DeploymentID" enableCopy="false" />** and blob storage as **blob**. 
+1. Use existing **JumpVM-RG** for the resource group. Create new storage account as **storage<inject key="DeploymentID" enableCopy="false" />** and File share as **blob**, then click on **Create storage** button.
 
    ![](media/s6.png)
    
-1. Once the Cloud Shell is configured, Paste the **PowerShell command** which you copied earlier and press enter.
+1. Once the Cloud Shell is launched, Paste the PowerShell **command** which we copied earlier in *step 5* and press **Enter**.
 
    ![](media/s7.png)
 
-   >**NOTE**: The execution of the command will take 5 - 10 minutes to complete. Wait till the execution completes.
+   >**NOTE**: The execution of the command will take 5 - 10 minutes to complete, Wait for the command to complete before proceeding with the lab.
 
-1. Navigate back to the previous tab and refresh the web page. Click on **Accept** to provide the neccessary permissions.
+1. Navigate back to the previous **browser tab** *(1)* and **refresh** *(2)* the web page. Click on **Accept** *(3)* to provide the neccessary permissions.
 
    ![](media/s8.png)
    
-1. Please provide the following details in the registartion page
+1. Provide the following details in the registartion page, and click on **Register**.
 
-   - **Company**: Select the default subscription *(1)*
-   - **Name**: odl_user_<inject key="DeploymentID" /> *(2)*
+   - Company: Select the default subscription** *(1)*
+   - Name: **odl_user_<inject key="DeploymentID" enableCopy="false" />** *(2)*
    - **Email**: **<inject key="AzureAdUserEmail" />** *(3)*
-   - **Country**: Select your country *(4)*
-   
-   Click on **Register**.
    
    ![](media/s9.png)
    
@@ -97,68 +98,74 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
    ![](media/s11.png)
    
-1. Provide the following details to create the account.
+1. Now in the ADD ACCOUNT page, Provide the following details.
 
-   **A. STEP 1: LINK TO CUSTOMER'S AZURE AD ACCOUNT**
+   **A. STEP 1: LINK TO CUSTOMER'S AZURE AD TENANT**
    
-   - **Grant access to Azure AD Tenant**: Click on *Connect (1)*. Login into your Azure account and click on **Accept** to provide the neccessary permission.
+   - Grant access to Azure AD Tenant: Click on **Connect** *(1)*, Follow te steps to Login into your Azure account.
 
-     ![](media/s12.1.png)
+   ![](media/s12.1.png)
      
-     ![](media/s12.png)
+   Click on **Accept** to provide the neccessary permission.
      
-   - **Account name**: Leave it to default value *(2)*
-   - **Desktop deployment model**: Select *Azure Virtual Desktop (3)* 
+   ![](media/s12.png)
+     
+   - Account name: Leave it to default value *(2)*
+   - Desktop deployment model: Select **Azure Virtual Desktop** *(3)* 
    - **Select subscription**: Select the default subscription from the drop down *(4)*
-   - **Indicate your Active Directory setup**: Select *Use Existing Azure AD DS* from the drop down *(5)*
+   - **Indicate your Active Directory setup**: Select **Use existing Azure AD DS** *(5)* from the drop down
    
-   Select **Save & next** *(6)* and wait till the configuration completes.
+   Click on **Save & next** *(6)* and wait for the configuration to complete.
    
    ![](media/s13.png)
    
    **B. STEP 2: NETWORKING**
    
-   - **Select Azure region**: *East US (1)*
-   - **Select or create Resource Group**: *AVD-RG (2)*
-   - **Select network**: *aadds-subnet(10.0.0.0/24) (3)*
+   - Select Azure region: **<inject key="Resource group Location" />** *(1)*
+   - Select or create Resource Group: **AVD-RG** *(2)*
+   - Select network: **aadds-subnet(10.0.0.0/24)** *(3)*
    
-   Select **Save & next** *(4)* and wait till the configuration completes.
+   Select **Save & next** *(4)* and wait for the configuration to complete.
    
    ![](media/s14.png)
    
    **C. STEP 3: ACTIVE DIRECTORY - EXISTING AZURE AD DS**
    
-   - **Domain name**: NAME OF THE AD DS
-   - **Domain admin user (must have domain join rights)**: <inject key="Username" />
-   - **Domain admin password**: <inject key="Password" />
+   - Domain name: **<inject key="Tenant FQDN" />** *(1)*
+   - Domain admin user: **<inject key="AzureAdUserEmail" />** *(2)*
+   - Domain admin password: **<inject key="AzureAdUserPassword" />** *(3)*
 
-   Select **Save & next** *(4)* and wait till the configuration completes.
+   Click on **Save & next** *(4)* and wait for the configuration to complete.
    
    ![](media/s15.png)
    
    **D. STEP 4: FSLOGIX STORAGE**
    
-   Select **Create new Azure Files share** and provide the following details to create new storage account for FSLogix.
+   Select **Create new Azure Files share** *(1)* and click on **Add** *(2)*.
    
    ![](media/ss12.png)
    
-   - **Storage account**: fslogix{deploymentid}
-   - **Resourec group**: *AVD-RG*
-   - **Location**: *East US*
-   - **Performance**: *Premium*
-   - **File Share name**: *fsprofilestore*
-   - **Provisioned capacity(GiB)**: *100*
-   - **Permissions (SMB Share Contributor)**: *Standard AVD*
-   - Click on *OK*
+   provide the following details to create new storage account for FSLogix, and click on **OK** *(8)*
+   
+   - Storage account: **fslogix<inject key="DeploymentID" enableCopy="false" />** *(1)*
+   - Resource group: Select **AVD-RG** *(2)* from the drop down
+   - Location: **<inject key="Resource group Location" />** *(3)*
+   - Performance: **Premium** *(4)*
+   - File Share name: **fsprofilestore** *(5)*
+   - Provisioned capacity(GiB): **100** *(6)*
+   - Permissions (SMB Share Contributor): Type *Standard AVD* and select **Standard AVD** *(7)* from the suggestion.
 
    ![](media/ss13.png)
    
-   Select **Save & done** and wait till the configuration completes.
+   Click on **Save & done** and wait for the configuration to complete.
    
    ![](media/s18.png)
   
-1. Once the storage account is created. You'll be able to see your NMM account in the Accounts blade.
+1. Once the account is added. You'll be able to see your NMM account in the *ACCOUNTS* blade.
 
    ![](media/s19.png)
 
 1. Click on the Next button present in the bottom-right corner of this lab guide.
+
+
+
