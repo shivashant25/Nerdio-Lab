@@ -60,7 +60,7 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
 
 1. In **STEP 5: COST ASSUMPTIONS**, provide the following details to assume further costs.
 
-   * **FSLogix Profile Size**:  *Medium (10GB)*** ***(1)***
+   * **FSLogix Profile Size**:  *Medium (10GB)* ***(1)***
    * **Bnadwidth**:  *1.5* ***(2)***
    * **Storage operations**:  *0.03* ***(3)***
    * **Log Analytics Workspace**:  *5* ***(4)*** & *30* ***(5)***
