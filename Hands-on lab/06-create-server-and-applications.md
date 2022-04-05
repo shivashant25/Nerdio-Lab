@@ -1,6 +1,6 @@
 # Lab 6: Create server and application
 
-# Skip this lab as its under development.
+# Skip this lab as it's under development.
 
 ## Exercise 1: Create server instance
 
@@ -29,6 +29,6 @@
    
    >**NOTE**: Server machine task will take around 5 - 10 minutes to complete. Please wait till the task completes.
    
-1. Once the creation completes, You'll be able see the new server in the **SERVERS** page.
+1. Once the creation completes, You'll be able to see the new server on the **SERVERS** page.
 
    ![](media/8s4.png)
