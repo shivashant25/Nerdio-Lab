@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Azure Backup service provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud. In this lab, you'll be creating a backup recovery vault, configuring policies to that vault and enabling backup for those policies.
+The Azure Backup service provides simple, secure, and cost-effective solutions to back up your data and recover it from the Microsoft Azure cloud. In this lab, you'll be creating a backup recovery vault, configuring policies to that vault, and enabling backup for those policies.
 
 ## Exercise 1: Create Recovery service vaults and policy
 
 In this exercise, We'll be creating a recovery vault and backup policies in your NMM Account.
 
-1. From the NMM portal, click on **ACCOUNTS** *(1)* from the side blade and click on **Manange** *(2)* on in the NMM Account.
+1. From the NMM portal, click on **ACCOUNTS** *(1)* from the side blade and click on **Manage** *(2)* on in the NMM Account.
 
    ![](media/2s1.png)
 
@@ -50,7 +50,7 @@ In this exercise, We'll be creating a recovery vault and backup policies in your
 
    - NAME: **nmmfilespolicy** *(1)*
    - TYPE: **Azure files policy** *(2)*
-   - FREQUENCY: select **Daily** *(3)* from the drop down, select **11 p.m.** *(4)* from the drop down, and and select your time zone *(5)*.
+   - FREQUENCY: select **Daily** *(3)* from the drop-down, select **11 p.m.** *(4)* from the drop-down, and select your time zone *(5)*.
    - RETENTION: **1** *(6)*
    
    ![](media/7ss6.png)
