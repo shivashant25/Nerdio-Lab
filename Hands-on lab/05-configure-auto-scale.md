@@ -1,28 +1,28 @@
 # Lab 5: Configure Auto Scaling
 
-## Oerview
+## Overview
 
-The autoscale feature lets you scale your AVD Host Pools up or down to optimize deployment costs. Based on your needs, you can make a scaling plan based on time of day, specific days of the week and session limits per session host. In this lab, you'll be configuring auto-scalling of the AVD host pool in your NMM Account. 
+The autoscale feature lets you scale your AVD Host Pools up or down to optimize deployment costs. Based on your needs, you can make a scaling plan based on time of day, specific days of the week, and session limits per session host. In this lab, you'll be configuring auto-scaling of the AVD host pool in your NMM Account. 
 
 ## Exercise 1: Configure Auto Scaling
 
-In this exercise, We'll be configuring auto-scalling of an existing AVD Host Pool in your NMM Account.  
+In this exercise, We'll be configuring auto-scaling of an existing AVD Host Pool in your NMM Account.  
    
 1. In NMM portal, Click on **AVD** *(1)* and Select **Host Pools** *(2)*.
 
    ![](media/2s5.png)
    
-1. Click on **Manage** next to AVD-HP-01 host pool.
+1. Click on **Manage** next to the AVD-HP-01 host pool.
 
    ![](media/2ss11.png)
    
-1. Verify that that two session hosts exists under the AVD-HP-01 host pool.
+1. Verify that the two session hosts exists under the AVD-HP-01 host pool.
 
    ![](media/2ss14.png)
     
    >**NOTE**: If Session hosts are still deploying. Wait till the deployment completes.
 
-1. Click on Host Pools on the left-hand side blade *(1)*, then click on manage hosts button and navigate to **Auto-Scale> configure** *(2)*.
+1. Click on Host Pools on the left-hand side blade *(1)*, then click onthe  manage hosts button and navigate to **Auto-Scale> configure** *(2)*.
 
    ![](media/5s1.png)
    
@@ -30,7 +30,7 @@ In this exercise, We'll be configuring auto-scalling of an existing AVD Host Poo
 
    ![](media/5s2.png)
    
-1. Under **PRE-STAGE HOSTS**, provide the following the details, then Click on ***Save*** *(6)*.
+1. Under **PRE-STAGE HOSTS**, provide the following details, then Click on **Save** *(6)*.
 
    - **Toggle** the switch On next to **PRE-STAGE HOSTS**.
    - Timezone: **Select your default time zone** *(2)*
