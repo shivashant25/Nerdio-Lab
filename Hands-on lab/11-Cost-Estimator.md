@@ -99,7 +99,7 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
 
    ![](media/cu1.png)
 
-Congratulations, You have successfully completed the lab.
+Congratulations, You have completed the lab.
 
    
    
