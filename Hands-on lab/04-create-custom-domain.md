@@ -2,7 +2,7 @@
 
 ## Overview
 
-A custom domain is a unique branded label that's connected to the IP address of a website. To visit a particular site, you can type its custom domain name into the address bar of your browser. In this lab, you'll be creating a custom domain of an App Service through Azure portal.
+A custom domain is a unique branded label that's connected to the IP address of a website. To visit a particular site, you can type its custom domain name into the address bar of your browser. In this lab, you'll be creating a custom domain of an App Service through the Azure portal.
 
 ## Exercise 1: Create Custom Domain **(Read Only)**
 
@@ -12,7 +12,7 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
    ![](media/s10.png)
    
-1. Select **NMM-RESOURCES-RG** from the list of reosurce groups which is a dynamic RG created during creation NMM.
+1. Select **NMM-RESOURCES-RG** from the list of resource groups which is a dynamic RG created during the creation of NMM.
    ![](media/ss1.png)
    
 1. Select the App service from the name, **web-admin-portal-[unique ID]** from the list of resources.
@@ -54,13 +54,13 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
    ![](media/6s7.png)
    
-1. Once the certificate is uploaded, associate the new domain to the certificate and click "Add Binding" button.
+1. Once the certificate is uploaded, associate the new domain to the certificate and click the "Add Binding" button.
 
    ![](media/6s8.png)
    
 1. Now navigate to Azure Active Directory, Select **App Registrations** and find the web admin portal application.  If your Web Admin Portal application is not shown, ensure "All Applications" is clicked.  This screen may default to **Owned Applications**.
 
-1. In the menu on the left, select the **Authentication** tab. Under Redirect URIs, do not remove the original URL but do add URIs for your custom domain. Click "Save" option.
+1. In the menu on the left, select the **Authentication** tab. Under Redirect URIs, do not remove the original URL but do add URIs for your custom domain. Click the "Save" option.
 
    >**NOTE**: if you do not see the Redirect URIs section, click "Add a platform" and select "Web." Then add the necessary Redirect URIs.
 
