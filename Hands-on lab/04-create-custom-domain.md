@@ -8,18 +8,19 @@ A custom domain is a unique branded label that's connected to the IP address of 
 
 >**NOTE**: This is a **Read-Only** exercise, Do not perform these steps. Please go through the lab guide to understand the implementation of adding custom domains.
 
-1. On the **Azure portal** search for **Resource groups** in the search bar *(1)* and select **Resource groups** *(2)* from the suggestions.
+1. On the **Azure portal** search for **Resource groups** in the search bar ***(1)*** and select **Resource groups** ***(2)*** from the suggestions.
 
-   ![](media/s10.png)
+   ![](media/c5.png)
    
 1. Select **NMM-RESOURCES-RG** from the list of reosurce groups which is a dynamic RG created during creation NMM.
+
    ![](media/ss1.png)
    
 1. Select the App service from the name, **web-admin-portal-[unique ID]** from the list of resources.
 
    ![](media/ss2.png)
    
-1. From the left-hand side blade under **Settings** *(1)*, Click on **Custom domains** *(2)*. 
+1. From the left-hand side blade under **Settings** ***(1)***, Click on **Custom domains** ***(2)***. 
 
    ![](media/6s1.png)
    
@@ -34,7 +35,7 @@ A custom domain is a unique branded label that's connected to the IP address of 
    - Value: the app service default URL
    - TTL: **1800** (or your preferred default)
    
-1. Click on **Add custom domains** *(1)*. Under **Add custom domains**, Provide **nmm.mynerdio.com** *(2)* for custom domain option and click on **Validate** *(3)*.
+1. Click on **Add custom domains** ***(1)***. Under **Add custom domains**, Provide **nmm.mynerdio.com** ***(2)*** for custom domain option and click on **Validate** ***(3)***.
    
    ![](media/6s2.png)
    
