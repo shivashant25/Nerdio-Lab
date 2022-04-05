@@ -6,7 +6,7 @@ Cost Estimator is a tool in Nerdio Manager for MSP that figures out the cost of 
 
 ## Exercise 1: View costs using Cost Estimator
 
-In this exercise, you'll view the costs of your resources using Cost Estimator in the NMM portal.
+In this exercise, you'll view the costs of your resources using the Cost Estimator in the NMM portal.
 
 1. From the NMM portal, click on **COST ESTIMATOR** *(1)* from the side blade and you will be redirected to the *COST ESTIMATOR - COST ESTIMATES* page.
 
