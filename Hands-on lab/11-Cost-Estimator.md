@@ -84,25 +84,10 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
 
    ![](media/9ss9.png)
    
-   
-## Exercise 2: Resource clean up
+1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
-1. From the Azure portal, click on **Resource Groups** present under *Navigate*.
 
-   ![](media/gs9.png)
 
-1. You will see a list of resource groups as shown in the image below. Click on **NMM-RG** to open it.
 
-   ![](media/gs10.png)
-   
-1. Click on **Delete resource group** ***(1)***, In **Are you sure you want to delete "NMM-RG"..** window, Provide the **RG Name** ***(2)*** and click on **Delete** ***(3)***.
-
-   ![](media/cu1.png)
-
-Congratulations, You have successfully completed the lab.
-
-   
-   
-   
   
       
