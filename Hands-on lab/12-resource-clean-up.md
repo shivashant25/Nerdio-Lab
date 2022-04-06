@@ -1,4 +1,4 @@
-# Resource Clean up
+# Clean up resources
 
 1. From the Azure portal, click on **Resource Groups** present under *Navigate*.
 
