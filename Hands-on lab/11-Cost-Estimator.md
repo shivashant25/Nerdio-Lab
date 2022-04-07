@@ -10,7 +10,7 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
 
 1. From the NMM portal, click on **COST ESTIMATOR** ***(1)*** from the side blade and you will be redirected to the *COST ESTIMATOR - COST ESTIMATES* page.
 
-   ![](media/9ss1.png)
+    ![](media/9ss1.png)
    
 1. In **STEP 1: Let's start with desktop information**, provide the following details.
 
@@ -21,11 +21,11 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
    * Maxed out host pool at minimum size in hours per week:  **128** ***(5)***
    * Ratio of users per CPU:  **Professional Worker (3 users)** ***(6)***
    
-    ![](media/9ss2.png)
+     ![](media/9ss2.png)
    
 1. In **STEP 2: SERVERS**, click on **Add server**.
 
-   ![](media/9ss3.1.png)
+    ![](media/9ss3.1.png)
 
    Provide the following details to add a server.
    
@@ -35,7 +35,7 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
    * DATA DISK:  **None** ***(4)***
    * APPLY RI:  **Yes** ***(5)***
 
-   ![](media/9ss3.png)
+    ![](media/9ss3.png)
    
 1. In **STEP 3: Licensing options**, provide the following details to assign licenses.
 
@@ -44,7 +44,7 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
    * HOW MANY?:  **5** ***(3)***
    * LICENSE:  **Windows 10 VDA** ***(4)***
    
-   ![](media/9ss4.png)
+    ![](media/9ss4.png)
    
 1. In **STEP 4: OTHER FEATURES**, provide the following details to add the other features.
 
@@ -56,7 +56,7 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
    * Azure AD DS: **Standard** ***(6)***
    * Additional storage:  **0** ***(7)***
    
-   ![](media/9ss5.png)
+    ![](media/9ss5.png)
 
 1. In **STEP 5: COST ASSUMPTIONS**, provide the following details to assume further costs.
 
@@ -72,17 +72,17 @@ In this exercise, you'll view the costs of your resources using Cost Estimator i
    * Currency:  **USD** ***(11)***
    * Click on **View costs** ***(12)*** 
    
-   ![](media/9ss6.png)
+    ![](media/9ss6.png)
    
 1. Once you click on *View costs*, you will be able to see **COST ESTIMATES**, **RESOURCES** and **AZURE COSTS BREAKDOWN** cost details. Click on **Save**.
 
-   ![](media/9ss7.png)
+    ![](media/9ss7.png)
    
-   ![](media/9ss8.png)
+    ![](media/9ss8.png)
    
 1. In the **SAVE AS** page, name it as **COST ESTIMATES** ***(1)*** and click on **Save** ***(2)***.
 
-   ![](media/9ss9.png)
+    ![](media/9ss9.png)
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
