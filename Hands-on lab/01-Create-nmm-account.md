@@ -16,7 +16,7 @@ In this exercise, you'll be creating two security groups from the Azure Active D
 
     ![](media/ss5.png)
     
-3. Click on the **Groups** tab under the "Manage" blade.
+3. Click on the **Groups** tab under the **Manage** blade.
 
     ![](media/ss6.png)
     
@@ -88,9 +88,9 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    
 1. Provide the following details on the registration page, and click on **Register** *****(4)*****.
 
-   - Company: Select the default subscription** ***(1)***
+   - Company: **Select the default subscription** ***(1)***
    - Name: **odl_user_<inject key="DeploymentID" enableCopy="false" />** ***(2)***
-   - **Email**: **<inject key="AzureAdUserEmail" />** ***(3)***
+   - Email: **<inject key="AzureAdUserEmail" />** ***(3)***
    
    ![](media/s9.png)
    
@@ -110,10 +110,10 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
      
    ![](media/s12.png)
      
-   - Account name: Leave it to default value ***(2)***
+   - Account name: Leave it to **Default value** ***(2)***
    - Desktop deployment model: Select **Azure Virtual Desktop** ***(3)*** 
-   - **Select subscription**: Select the default subscription from the drop down ***(4)***
-   - **Indicate your Active Directory setup**: Select **Use existing Azure AD DS** ***(5)*** from the drop down
+   - Select subscription: Select the **default subscription** from the drop down ***(4)***
+   - Indicate your Active Directory setup: Select **Use existing Azure AD DS** ***(5)*** from the drop down
    
    Click on **Save & next** ***(6)*** and wait for the configuration to complete.
    
@@ -123,7 +123,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    
    - Select Azure region: **<inject key="Resource group Location" />** ***(1)***
    - Select or create Resource Group: **AVD-RG** ***(2)***
-   - Select network: **aadds-subnet(10.0.0.0/24)**** ***(3)***
+   - Select network: **aadds-subnet(10.0.0.0/24)** ***(3)***
    
    Select **Save & next** ***(4)*** and wait for the configuration to complete.
    
