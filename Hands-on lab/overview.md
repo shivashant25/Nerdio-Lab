@@ -22,9 +22,9 @@ You will also deploy the Azure infrastructure for the Azure Virtual Desktop Tena
 
 ## **Lab 1: Create NMM Account**
 
-In this lab with the help of Nerdio Manager for MSPs(NMM) and Azure portal, you'll create a Nerdio account and explore the resources deployed by NMM. NMM manages Multi-tenant Azure Virtual Desktop and Windows 365 Deployment, Management, and Optimization Platform for Managed Service Providers.
+In this lab with the help of Nerdio Manager for MSPs(NMM) and Azure portal, We'll create a Nerdio account and explore the resources deployed by NMM. NMM manages Multi-tenant Azure Virtual Desktop and Windows 365 Deployment, Management, and Optimization Platform for Managed Service Providers.
 
-You will be creating an account using already deployed Azure active directory domain service(AAD DS) instance and other required resources. Since Contoso is already using an AAD DS Service, AAD DS Service will provide Identity and Authentication service.
+We will be creating an account using already deployed Azure active directory domain service(AAD DS) instance and other required resources. Since Contoso is already using an AAD DS Service, AAD DS Service will provide Identity and Authentication service.
 
 ## **Lab 2: Create Desktop Image and Host pool**
 
@@ -32,9 +32,45 @@ In this lab we will deploy a Azure Virtual Desktop host pool for pooled desktops
 
 ## **Lab 3: Create users and assign users to security groups**
     
-In this lab, you'll be creating new users in your NMM Account and assigning them to different Azure AD security groups.
+In this lab, We will create new users using Nerdio manager. Nmmuser01 will be a general AVD user and nmmuser02 will be assigned to access Microsoft Office 365. We'll assign new NMM users to AVD standard group and AVD QuickBooks users group using Nerdio manager.
     
+## **Lab 4: How to create Custom domain for your websites (read only)**
+
+This is a read-only lab where we will explore about adding custom domain name to NMM app service. 
+
+## **Lab 5: Configure Autoscaling**
 
 
+Desktop Auto-scaling is a unique feature which helps to optimize costs by paying only for the Nerdio resources used. Desktop auto-scaling takes advantage of the elasticity of cloud-hosted environments to increase or decrease resources as per individual customer requirements. The feature reduces the need for an operator to continually monitor the performance of a system and take decisions regarding adding or removing resources on demand.
+
+In this lab, We will configure Auto-scaling for the host pool to manage the cost efficiently using Nerdio manager. 
+
+## **Lab 6: Configure App Masking and Reimage the session dekstops**
+
+In this lab, We'll be reimaging the session desktop to install Microsoft Office 365 and we will configure app masking in order to provide access to the Office 365 by creating rule sets in Nerdio manager.
+
+## **Lab 7: Configure Networking: Add NAT gateway**
+
+In this lab, We will configure NAT gateway for existing virtual network to improve security and resiliency. 
+
+## **Lab 8: Access Session desktops: Access session desktop and QuickBooks**
+
+In this lab, We will use Remote Desktop client to verify Microsoft Office 365 access and we will access file share to check the implementation of FSLogix. 
+
+## **Lab 9: Create Back up**
+
+In this lab, We will create and link a new Recovery service vault and policies for back up and we will enable back up for session Desktop and File Share using Nerdio Manager portal.
+
+## **Lab 10: Monitoring**
+
+In this lab, we will explore statistics and performance of the AVD environment using Azure Insights.
+
+## **Lab 11: Cost Estimator** 
+
+In this lab, We will explore Nerdio Cost Estimator using Nerdio manager portal. 
 
 Click on the **Next** button present in the bottom-right corner of this lab guide.
+
+
+
+

@@ -34,7 +34,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/4s6.png)
 
-6. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+6. After installation, on your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/4s7.png)
    
