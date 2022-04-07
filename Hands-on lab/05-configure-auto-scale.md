@@ -6,13 +6,18 @@ The autoscale feature lets you scale your AVD Host Pools up or down to optimize 
 
 ## Exercise 1: Configure Auto Scaling
 
-In this exercise, We'll be configuring the auto-scaling of an existing AVD Host Pool in your NMM Account.  
+In this exercise, We'll be configuring auto-scaling of an existing AVD Host Pool in your NMM Account.  
    
 1. In NMM portal, Click on **AVD** ***(1)*** and Select **Host Pools** ***(2)***, then Click on **Manage Hosts** ***(3)*** next to AVD-HP-01 host pool
 
    ![](media/up2.png)
    
-1. Verify that two session hosts exist under the AVD-HP-01 host pool.
+
+1. Click on **Manage** next to the AVD-HP-01 host pool.
+
+   ![](media/2ss11.png)
+   
+1. Verify that the two session hosts exists under the AVD-HP-01 host pool.
 
    ![](media/2ss14.png)
     
