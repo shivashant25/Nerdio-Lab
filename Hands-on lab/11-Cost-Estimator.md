@@ -86,7 +86,7 @@ In this exercise, you'll view the costs of your resources using the Cost Estimat
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
-
+Congratulations, You have completed the lab.
 
 
   
