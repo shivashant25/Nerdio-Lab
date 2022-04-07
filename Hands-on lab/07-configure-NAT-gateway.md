@@ -6,7 +6,7 @@ Virtual Network NAT (network address translation) simplifies outbound-only Inter
 
 ## Exercise 1: Configure NAT gateway using Nerdio Manager
 
-In this exercise, We'll be configuring the NAT gateway for the existing virtual network and assigning the new public IP address.
+In this exercise, We'll be configuring the NAT gateway for the existing virtual network and assign a new public IP address.
    
 1. On the left-hand side blade click on **NETWORK** ***(1)***, Select **NAT Gateway** ***(2)***, and click on **Add NAT Gateway** ***(3)***.
 
@@ -25,7 +25,7 @@ In this exercise, We'll be configuring the NAT gateway for the existing virtual 
 
    ![](media/10s2.png)
    
-1. Once the NAT gateway is created, You'll be able to see it under NAT GATEWAY.
+1. Once the NAT gateway is created, You'll be able to see it under the NAT GATEWAY.
 
    ![](media/10s3.png)
 
