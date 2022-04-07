@@ -2,7 +2,7 @@
 
 ## Overview
 
-Azure Virtual Desktop (AVD) integrates virtual desktop infrastructure (VDI) and the cloud. AVD is Microsoft Azure’s platform-as-a-service (PaaS) offering from Microsoft. It enables small to large cloud consumers to provide remote applications and full desktops from Microsoft cloud to their end users. Azure Files is also a  platform service (PaaS) and is one of the recommended solutions for hosting FSLogix containers for AVD users. In this lab, you'll be accessing the Desktop using AVD Desktop Client and verifying the User profiles stored in File share
+Azure Virtual Desktop (AVD) integrates virtual desktop infrastructure (VDI) and the cloud. AVD is Microsoft Azure’s platform-as-a-service (PaaS) offering from Microsoft. It enables small to large cloud consumers to provide remote applications and full desktops from Microsoft cloud to their end-users. Azure Files is also a  platform service (PaaS) and is one of the recommended solutions for hosting FSLogix containers for AVD users. In this lab, you'll be accessing the Desktop using the AVD Desktop Client and verifying the User profiles stored in the File share
 
 ## Exercise 1: Access the Desktop using AVD Desktop Client
 
@@ -34,7 +34,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/4s6.png)
 
-6. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+6. After installation, on your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/4s7.png)
    
@@ -64,7 +64,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/4s13.png)
     
-11. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter the password of ***nmmuser01*** which you had copied earlier and click on **OK**.
+11. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter the password of ***nmmuser01*** which you had copied earlier, and click on **OK**.
    
     ![ws name.](media/4s14.1.png)
     
@@ -76,9 +76,9 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
         
     ![ws name.](media/4s16.png)
    
-## Exercise 2: Verifying the User profiles stored in File share
+## Exercise 2: Verifying the User profiles stored in the File share
 
-In this exercise, you'll be verifying the user profiles stored in a file share in Azure portal.
+In this exercise, you'll be verifying the user profiles stored in a file share in the Azure portal.
 
 1. From the Azure Portal, search for *storage accounts* in the search bar and click on **Storage Accounts** from the suggestions.
 
