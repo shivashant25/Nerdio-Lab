@@ -2,11 +2,11 @@
 
 ## Overview
 
-Azure AD Security Groups are Security Principals, which means they can be used to secure objects in Azure AD. They can be created natively in Azure AD, or synced from Windows AD with Azure AD Connect. NMM Partner API allows MSPs to automate various actions in NMM via API that they can do via the NMM portal. For examples, MSPs can create & manage host pools, hosts, desktop images all via the API. In this lab, you'll be creating groups in Azure AD, accessing the NMM portal using the web app and creating a NMM Account.
+Azure AD Security Groups are Security Principals, which means they can be used to secure objects in Azure AD. They can be created natively in Azure AD, or synced from Windows AD with Azure AD Connect. NMM Partner API allows MSPs to automate various actions in NMM via API that they can do via the NMM portal. For example, MSPs can create & manage host pools, hosts, and desktop images all via the API. In this lab, you'll be creating groups in Azure AD, accessing the NMM portal using the web app, and creating an NMM Account.
 
 ## Exercise 1: Create Groups in Azure AD.
 
-In this exercise, you'll be creating two security groups from Azure Active Directory by logging into the Azure Portal.
+In this exercise, you'll be creating two security groups from the Azure Active Directory by logging into the Azure Portal.
 
 1. Navigate to the Azure portal, then search for **Azure Active Directory** ***(1)*** in the search bar and select **Azure Active Directory** ***(2)*** from the suggestions.
 
@@ -36,19 +36,19 @@ In this exercise, you'll be creating two security groups from Azure Active Direc
 
     ![](media/c3.png)
     
-8. Now in the **Groups | All groups**, Click on **Refresh** *****(1)*****. You will be able see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users** *****(2)*****.
+8. Now in the **Groups | All groups**, Click on **Refresh** *****(1)*****. You will be able to see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users** *****(2)*****.
 
     ![](media/c4.png)
 
 ## Exercise 2: Getting started with NMM
 
-In this exercise, you'll be accessing the NMM portal using the web app, registering for **Nerdio Manager for MSP** with the help of Powershell commands and creating your own **NMM Account** from the **NMM Portal**.
+In this exercise, you'll be accessing the NMM portal using the web app, registering for **Nerdio Manager for MSP** with the help of Powershell commands, and creating your own **NMM Account** from the **NMM Portal**.
 
 1. On the Azure portal search for **Resource groups** in the search bar *****(1)***** and select **Resource groups** *****(2)***** from the suggestions.
 
    ![](media/c5.png)
    
-1. Select **NMM-RESOURCES-RG** from the list of resource groups which is a dynamic RG created during creation of NMM resource. It contains all the required resources.
+1. Select **NMM-RESOURCES-RG** from the list of resource groups which is a dynamic RG created during the creation of the NMM resource. It contains all the required resources.
 
    ![](media/ss1.png)
    
@@ -56,11 +56,11 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
    ![](media/ss2.png)
    
-1. From the App service page, Click on the **URL** to access the Nerdio portal.
+1. From the App service page, click on the **URL** to access the Nerdio portal.
 
    ![](media/ss3.png)
    
-1. From the Nerdio portal, Click on the **Copy** *****(1)***** button to copy the PowerShell command and paste it in the Notepad as you'll be using later in the lab and then click on the **Launch Azure Cloud Shell** *****(2)*****.
+1. From the Nerdio portal, Click on the **Copy** *****(1)***** button to copy the PowerShell command and paste it into the Notepad as you'll be using later in the lab, and then click on the **Launch Azure Cloud Shell** *****(2)*****.
  
    ![](media/c6.png)
    
@@ -86,7 +86,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
 
    ![](media/c8.png)
    
-1. Provide the following details in the registartion page, and click on **Register** *****(4)*****.
+1. Provide the following details on the registration page, and click on **Register** *****(4)*****.
 
    - Company: Select the default subscription** ***(1)***
    - Name: **odl_user_<inject key="DeploymentID" enableCopy="false" />** ***(2)***
@@ -94,19 +94,19 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    
    ![](media/s9.png)
    
-1. Once registered, You'll land up in **NMM portal**. Click on **Add account** to create new NMM account.
+1. Once registered, You'll land up in the **NMM portal**. Click on **Add account** to create a new NMM account.
 
    ![](media/s11.png)
    
-1. Now in the ADD ACCOUNT page, Provide the following details.
+1. Now on the ADD ACCOUNT page, Provide the following details.
 
    **A. STEP 1: LINK TO CUSTOMER'S AZURE AD TENANT**
    
-   - Grant access to Azure AD Tenant: Click on **Connect** ***(1)***, Follow te steps to Login into your Azure account.
+   - Grant access to Azure AD Tenant: Click on **Connect** ***(1)***, Follow the steps to Login into your Azure account.
 
    ![](media/s12.1.png)
      
-   Click on **Accept** to provide the neccessary permission.
+   Click on **Accept** to provide the necessary permission.
      
    ![](media/s12.png)
      
@@ -145,7 +145,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    
    ![](media/ss12.png)
    
-   provide the following details to create new storage account for FSLogix, and click on **OK** ***(8)***
+   provide the following details to create a new storage account for FSLogix, and click on **OK** ***(8)***
    
    - Storage account: **fslogix<inject key="DeploymentID" enableCopy="false" />** ***(1)***
    - Resource group: Select **AVD-RG** ***(2)*** from the drop down
