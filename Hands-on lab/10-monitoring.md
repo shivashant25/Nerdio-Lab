@@ -2,7 +2,7 @@
 
 ## Overview
 
-Azure Monitor helps you maximize the availability and performance of your applications and services. Nerdio Manager for MSP lets us view the Azure Monitoring insights through the NMM Portal. In this lab, you'll be accessing the Azure Monitor using Nerdio Manager for MSP and monitoring the Azure Virtual Desktop in Azure portal.
+Azure Monitor helps you maximize the availability and performance of your applications and services. Nerdio Manager for MSP lets us view the Azure Monitoring insights through the NMM Portal. In this lab, you'll be accessing the Azure Monitor using Nerdio Manager for MSP and monitoring the Azure Virtual Desktop in the Azure portal.
 
 ## Exercise 1: Access Azure Monitor using Nerdio Manager
 
@@ -13,7 +13,7 @@ In this exercise, We'll be accessing the Azure Monitor using Nerdio Manager to m
 
    ![](media/9s1.png)
   
-1. Under Monitoring Insights pop up, Click on **Continue** which will redirect to the AVD Insights page in Azure portal.
+1. Under the Monitoring Insights pop-up, Click on **Continue** which will redirect to the AVD Insights page in the Azure portal.
 
    ![](media/9s2.png)
    
@@ -21,7 +21,7 @@ In this exercise, We'll be accessing the Azure Monitor using Nerdio Manager to m
 
    ![ws name.](media/9s3.png)
    
-1. Click on **Connection Diagnostics** tab, This tab gives us information about Session connections and connectivity rate insights.
+1. Click on the **Connection Diagnostics** tab, This tab gives us information about Session connections and connectivity rate insights.
 
    ![ws name.](media/9s7.png)
    
@@ -29,11 +29,11 @@ In this exercise, We'll be accessing the Azure Monitor using Nerdio Manager to m
 
    ![ws name.](media/9s4.png)
    
-1. Click on **Utilization** tab, This tab gives us information about sessions summary, core info, and more information about the utilization of resources.
+1. Click on the **Utilization** tab, This tab gives us information about sessions summary, core info, and more information about the utilization of resources.
 
    ![ws name.](media/9s5.png)
    
-1. Click on **Clients** ***(1)*** tab, Here we'll be able to monitor the number of users connected to AVD using the browser and remote client application.
+1. Click on the **Clients** ***(1)*** tab, Here we'll be able to monitor the number of users connected to AVD using the browser and remote client application.
 
    ![ws name.](media/9s6.png)
    
