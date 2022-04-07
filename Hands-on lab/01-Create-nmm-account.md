@@ -10,35 +10,35 @@ In this exercise, you'll be creating two security groups from the Azure Active D
 
 1. Navigate to the Azure portal, then search for **Azure Active Directory** ***(1)*** in the search bar and select **Azure Active Directory** ***(2)*** from the suggestions.
 
-    ![](media/up1.png)
+   ![](media/up1.png)
     
 2. You will be directed towards the Azure Active Directory Overview window.
 
-    ![](media/ss5.png)
+   ![](media/ss5.png)
     
 3. Click on the **Groups** tab under the **Manage** blade.
 
-    ![](media/ss6.png)
+   ![](media/ss6.png)
     
 4. Click on the **New group**.
 
-    ![](media/ss7.png)
+   ![](media/ss7.png)
     
 5. Select the Group type as **Security** *****(1)*****, Group **Standard AVD** *****(2)***** and click on **Create** *****(3)*****. Your group will be created successfully.
 
-    ![](media/c2.png)
+   ![](media/c2.png)
 
 6. Again click on **New group**.
 
-    ![](media/ss7.png)
+   ![](media/ss7.png)
 
 7. Select the Group type as **Security** *****(1)*****, Group **AVD QuickBooks Users** *****(2)***** and click on **Create** *****(3)*****. Your group will be created successfully.
 
-    ![](media/c3.png)
+   ![](media/c3.png)
     
 8. Now in the **Groups | All groups**, Click on **Refresh** *****(1)*****. You will be able to see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users** *****(2)*****.
 
-    ![](media/c4.png)
+   ![](media/c4.png)
 
 ## Exercise 2: Getting started with NMM
 
@@ -94,11 +94,11 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    
    ![](media/s9.png)
    
-1. Once registered, You'll land up in the **NMM portal**. Click on **Add account** to create a new NMM account.
+1. Once registered, You'll land up in **NMM portal**. Click on **Add account** to create a new NMM account.
 
    ![](media/s11.png)
    
-1. Now on the ADD ACCOUNT page, Provide the following details.
+1. Now on the ADD ACCOUNT page, provide the following details.
 
    **A. STEP 1: LINK TO CUSTOMER'S AZURE AD TENANT**
    
@@ -146,6 +146,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    ![](media/ss12.png)
    
    provide the following details to create a new storage account for FSLogix, and click on **OK** ***(8)***
+
    
    - Storage account: **fslogix<inject key="DeploymentID" enableCopy="false" />** ***(1)***
    - Resource group: Select **AVD-RG** ***(2)*** from the drop down
