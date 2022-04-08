@@ -20,7 +20,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
   
 1. Enter your **credentials** to access the workspace.
 
-   - Username: *Paste your username* **<inject key="Nmm User 01" />** *and then click on **Next**.*
+   - Username: *Paste your NMMUser 01 username* **<inject key="Nmm User 01" />** *and then click on **Next**.*
    
    ![ws name.](media/4s9.1.png)
 
