@@ -32,13 +32,13 @@ In this exercise, you'll be creating two security groups from the Azure Active D
 
    ![](media/ss7.png)
 
-7. Select the Group type as **Security** *****(1)*****, Group **AVD QuickBooks Users** *****(2)***** and click on **Create** *****(3)*****. Your group will be created successfully.
+7. Select the Group type as **Security** *****(1)*****, Group **AVD MSOffice Users** *****(2)***** and click on **Create** *****(3)*****. Your group will be created successfully.
 
-   ![](media/c3.png)
+   ![](media/am1.png)
     
-8. Now in the **Groups | All groups**, Click on **Refresh** *****(1)*****. You will be able to see the two newly created groups named **Standard AVD** and **AVD QuickBooks Users** *****(2)*****.
+8. Now in the **Groups | All groups**, Click on **Refresh** *****(1)*****. You will be able to see the two newly created groups named **Standard AVD** and **AVD MSOffice Users** *****(2)*****.
 
-   ![](media/c4.png)
+   ![](media/am2.png)
 
 ## Exercise 2: Getting started with NMM
 
@@ -156,7 +156,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    - Provisioned capacity(GiB): **100** ***(6)***
    - Permissions (SMB Share Contributor): Type *Standard AVD* and select **Standard AVD** ***(7)*** from the suggestion.
 
-   ![](media/ss13.png)
+   ![](media/am3.png)
    
    Click on **Save & done** and wait for the configuration to complete.
    
