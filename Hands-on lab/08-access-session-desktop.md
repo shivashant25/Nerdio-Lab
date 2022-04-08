@@ -10,39 +10,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 >#### **Note:** You have to perform this exercise in **Your Own PC/computer/workstation.** Do not perform this exercise within the JumpVM.
 
-1. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
-
-   ```
-   https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client
-   ```
-
-   > **Note:** To download *AVD Mac Client* on **macOS**, use the link given below:
-   >
-   > ```
-   > https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-macos
-   > ```
-
-2. Under *Install the Windows Desktop Client*, click on **Windows 64-bit**. This will download the **Remote Desktop Client** on **Your Own PC/computer/workstation**.
-   
-   ![ws name.](media/4s5.png)
-      
-3. After the download completes, open the setup to run it. Then on the Welcome page of setup click on **Next**.
-
-4. Check the agreement box and click on **Next**.
-
-5. On the **Installation scope** window select **Install just for you** and then click on **Install**.
-
-   ![ws name.](media/4s6.png)
-
-6. After installation, on your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
+1. From the JumpVM, Go to **Start** and search for **Remote desktop** and open the remote desktop application with the exact icon as shown below.
 
    ![ws name.](media/4s7.png)
    
-7. Once the application opens, click on **Subscribe**.
+1. Once the application opens, click on **Subscribe**.
 
    ![ws name.](media/4s8.png)
   
-8. Enter your **credentials** to access the workspace.
+1. Enter your **credentials** to access the workspace.
 
    - Username: *Paste your username* **<inject key="AzureAdUserEmail" />** *and then click on **Next**.*
    
@@ -60,19 +36,19 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/4s12.png)
    
-10. The AVD dashboard will launch, then double click on the **Excel** application to access it.
+1. The AVD dashboard will launch, then double click on the **Excel** application to access it.
 
     ![ws name.](media/4s13.png)
     
-11. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter the password of ***nmmuser01*** which you had copied earlier, and click on **OK**.
+1. A window saying *Starting your app*, will appear. Wait for a few seconds, then enter the password of ***nmmuser01*** which you had copied earlier, and click on **OK**.
    
     ![ws name.](media/4s14.1.png)
     
-12. Wait for the Session Desktop to connect.
+1. Wait for the Session Desktop to connect.
 
     ![ws name.](media/4s15.png)
     
-13. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
+1. Your virtual desktop will launch and look similar to the screenshot below. You can exit from the window by clicking on **X *i.e., the close button***. 
         
     ![ws name.](media/4s16.png)
    
