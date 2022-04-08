@@ -36,7 +36,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
    ![ws name.](media/4s12.png)
    
-1. The AVD dashboard will launch, then double click on the **Excel** application to access it.
+1. The AVD dashboard will launch, then double click on the **Session Desktop** to access it.
 
     ![ws name.](media/4s13.png)
     
