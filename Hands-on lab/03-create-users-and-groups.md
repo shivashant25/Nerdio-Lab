@@ -74,7 +74,7 @@ In this exercise, We'll be assigning the new users to a security group.
 
    ![](media/3ss12.png)
    
-1. From NMM portal, Select **GROUPS** ***(1)*** from the left-hand side blade and then click on **Edit** ***(2)*** next to the **Standard AVD** group.
+1. From NMM portal, Select **GROUPS** ***(1)*** from the left-hand side blade and then click on **Edit** ***(2)*** next to the **AVD MSOffice Users** group.
 
    ![](media/am6.png)
    
