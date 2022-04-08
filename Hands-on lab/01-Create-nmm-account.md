@@ -154,7 +154,7 @@ In this exercise, you'll be accessing the NMM portal using the web app, register
    - Performance: **Premium** ***(4)***
    - File Share name: **fsprofilestore** ***(5)***
    - Provisioned capacity(GiB): **100** ***(6)***
-   - Permissions (SMB Share Contributor): Type *Standard AVD* and select **Standard AVD** ***(7)*** from the suggestion.
+   - Permissions (SMB Share Contributor): Type *Standard AVD* and then select **Standard AVD**, type *AVD MSOffice Users* and then select **AVD MSOffice Users** ***(7)*** from the suggestion.
 
    ![](media/am3.png)
    
