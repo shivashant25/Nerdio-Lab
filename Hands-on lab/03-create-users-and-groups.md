@@ -54,14 +54,13 @@ In this exercise, We'll be assigning the new users to a security group.
 
    ![](media/3ss7.png)
    
-1. Provide the following details to add users to the group, and click on **Save** ***(5)***
+1. Provide the following details to add users to the group, and click on **Save** ***(4)***
 
    - GROUP TYPE: **Security group** ***(1)***
    - NAME: **Standard AVD** ***(2)***
-   - MEMBERS: Select **<inject key="AzureAdUserEmail" enableCopy="false" />**, **<inject key="Nmm User 01" enableCopy="false" />**, and **<inject key="Nmm User 02" enableCopy="false" />** ***(3)*** from the drop down
-   - OWNERS: Select **<inject key="AzureAdUserEmail" enableCopy="false" />** ***(4)*** from the drop down
+   - MEMBERS: Select **<inject key="AzureAdUserEmail" enableCopy="false" />**, and **<inject key="Nmm User 01" enableCopy="false" />** ***(3)*** from the drop down
    
-   ![](media/3ss8.png)
+   ![](media/am7.png)
    
 1. Once the users are added to the **Standard AVD** group, click on the **drop-down** icon next to the edit button of the Standard AVD group and select the **Manage AVD desktops** option.
 
@@ -74,6 +73,30 @@ In this exercise, We'll be assigning the new users to a security group.
 1. Once the Desktop assignment completes, you'll be able to see the **Standard AVD** group attached to the **AVD-HP-01** desktop host pool.
 
    ![](media/3ss12.png)
+   
+1. From NMM portal, Select **GROUPS** ***(1)*** from the left-hand side blade and then click on **Edit** ***(2)*** next to the **Standard AVD** group.
+
+   ![](media/am6.png)
+   
+1. Provide the following details to add users to the group, and click on **Save** ***(4)***
+
+   - GROUP TYPE: **Security group** ***(1)***
+   - NAME: **AVD MSOffice Users** ***(2)***
+   - MEMBERS: Select **<inject key="Nmm User 02" enableCopy="false" />** ***(3)*** from the drop down
+   
+   ![](media/am8.png)
+   
+1. Once the users are added to the **AVD MSOffice Users** group, click on the **drop-down** icon next to the edit button of the Standard AVD group and select the **Manage AVD desktops** option.
+
+   ![](media/am9.png)
+   
+1. Under **DESKTOP ASSIGNMENTS**, Select the **AVD-HP-01** ***(1)*** host pool and click on **Confirm** ***(2)***.
+
+   ![](media/3s10.png)
+   
+1. Once the Desktop assignment completes, you'll be able to see the **AVD MSOffice Users** group attached to the **AVD-HP-01** desktop host pool.
+
+   ![](media/am10.png)
    
 1. Click on the **Next** button present in the bottom-right corner of this lab guide.
 
