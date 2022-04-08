@@ -62,7 +62,7 @@ In this exercise, We'll be creating a Multi-User Desktop (Pooled) AVD Host pool 
    - VM SIZE: **D4s_v4 (4C/16GB/Standard)** ***(8)***
    - OS DISK: **128GB (E10/Standard SSD)** ***(9)***
    
-   ![](media/2ss8.png)
+   ![](media/am11.png)
 
    On the **Manage AUTO-SCALE AVD-HP-01** page, Leave all the options to *default* and click on **Save**.
  
