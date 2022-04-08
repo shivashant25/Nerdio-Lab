@@ -12,11 +12,6 @@ In this exercise, We'll be configuring auto-scaling of an existing AVD Host Pool
 
    ![](media/up2.png)
    
-
-1. Click on **Manage** next to the AVD-HP-01 host pool.
-
-   ![](media/2ss11.png)
-   
 1. Verify that the two session hosts exists under the AVD-HP-01 host pool.
 
    ![](media/2ss14.png)
