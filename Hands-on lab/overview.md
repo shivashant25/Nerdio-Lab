@@ -45,7 +45,7 @@ Desktop Auto-scaling is a unique feature which helps to optimize costs by paying
 
 In this lab, We will configure Auto-scaling for the host pool to manage the cost efficiently using Nerdio manager. 
 
-## **Lab 6: Configure App Masking and Reimage the session dekstops**
+## **Lab 6: Configure App Masking and Reimage the session desktops**
 
 In this lab, We'll be reimaging the session desktop to install Microsoft Office 365 and we will configure app masking in order to provide access to the Office 365 by creating rule sets in Nerdio manager.
 
